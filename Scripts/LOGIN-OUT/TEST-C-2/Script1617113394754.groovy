@@ -17,6 +17,13 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+
+
+
+//HACER LOGIN CON USUARIO VALIDO Y CONTRASEÑA INVALIDA------TEST-C-2---------
+
+
+
 //ABRI NAVEGADOR
 WebUI.openBrowser(null)
 //NAVEGAR MEDIANTE LA URL

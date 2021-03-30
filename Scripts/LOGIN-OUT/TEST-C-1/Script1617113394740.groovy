@@ -17,6 +17,11 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+
+
+//------------HACER LOGIN CON USUARIO VALIDO Y CONTRASEÑA VALIDA-------TEST-C-1-----------
+
+
 WebUI.openBrowser('')
 
 WebUI.maximizeWindow()
