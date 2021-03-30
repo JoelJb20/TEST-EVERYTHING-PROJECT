@@ -26,28 +26,28 @@ WebUI.maximizeWindow()
 //ESPERAR 2 SEGUNDOS DESPUES "PARA QUE SE TERMINE DE AJUSTAR LA PANTALLA" 
 WebUI.delay(2)
 //VERIFICANDO LA PRESENCIA DEL ELEMENTO MENCIONADO
-WebUI.verifyElementPresent(findTestObject('Object Repository/LOGIN/Page_Amazon Sign-In/input_Email or mobile phone number_email'), 
+WebUI.verifyElementPresent(findTestObject('LOGIN_OR/Page_Amazon Sign-In/input_Email or mobile phone number_email'), 
     0)
 //VERIFICANDO LA PROPIEDAD CLICKABLE DEL ELEMENTO MENCIONADO
-WebUI.verifyElementClickable(findTestObject('Object Repository/LOGIN/Page_Amazon Sign-In/input_Email or mobile phone number_email'))
+WebUI.verifyElementClickable(findTestObject('LOGIN_OR/Page_Amazon Sign-In/input_Email or mobile phone number_email'))
 
-WebUI.click(findTestObject('Object Repository/LOGIN/Page_Amazon Sign-In/input_Email or mobile phone number_email'))
+WebUI.click(findTestObject('LOGIN_OR/Page_Amazon Sign-In/input_Email or mobile phone number_email'))
 //INSERTANDO LA DATA DE PRUEBA EN EL INPUT
-WebUI.setText(findTestObject('Object Repository/LOGIN/Page_Amazon Sign-In/input_Email or mobile phone number_email'), GlobalVariable.USERNAME_VAL)
+WebUI.setText(findTestObject('LOGIN_OR/Page_Amazon Sign-In/input_Email or mobile phone number_email'), GlobalVariable.USERNAME_VAL)
 //CLICK BOTON CONTINUAR
-WebUI.click(findTestObject('Object Repository/LOGIN/Page_Amazon Sign-In/input_Enter your email or mobile phone number_continue'))
+WebUI.click(findTestObject('LOGIN_OR/Page_Amazon Sign-In/input_Enter your email or mobile phone number_continue'))
 //VERIFICANDO LA PRESENCIA DEL ELEMENTO MENCIONADO 
-WebUI.verifyElementPresent(findTestObject('Object Repository/LOGIN/Page_Amazon Sign-In/input_Forgot your password_password'), 0)
+WebUI.verifyElementPresent(findTestObject('LOGIN_OR/Page_Amazon Sign-In/input_Forgot your password_password'), 0)
 //VERIFICANDO LA PROPIEDAD CLICKABLE DEL ELEMENTO MENCIONADO
-WebUI.verifyElementClickable(findTestObject('Object Repository/LOGIN/Page_Amazon Sign-In/input_Forgot your password_password'))
+WebUI.verifyElementClickable(findTestObject('LOGIN_OR/Page_Amazon Sign-In/input_Forgot your password_password'))
 
-WebUI.click(findTestObject('Object Repository/LOGIN/Page_Amazon Sign-In/input_Forgot your password_password'))
+WebUI.click(findTestObject('LOGIN_OR/Page_Amazon Sign-In/input_Forgot your password_password'))
 //INSERTANDO LA DATA DE PRUEBA EN EL INPUT
-WebUI.setText(findTestObject('Object Repository/LOGIN/Page_Amazon Sign-In/input_Forgot your password_password'), GlobalVariable.INV_PASSWORD)
+WebUI.setText(findTestObject('LOGIN_OR/Page_Amazon Sign-In/input_Forgot your password_password'), GlobalVariable.INV_PASSWORD)
 //CLICK BOTON "SUBMIT O INICIAR SECCION"
-WebUI.click(findTestObject('Object Repository/LOGIN/Page_Amazon Sign-In/input_Enter your password_signInSubmit'))
+WebUI.click(findTestObject('LOGIN_OR/Page_Amazon Sign-In/input_Enter your password_signInSubmit'))
 //VERIFICANDO LA PRESENCIA DEL ELEMENTO QUE NOS ESTA AVISANDO QUE EL PASSWORD NO ES CORRECTO.
-WebUI.verifyElementPresent(findTestObject('Object Repository/LOGIN/Page_Amazon Sign-In/span_Your password is incorrect'), 0)
+WebUI.verifyElementPresent(findTestObject('LOGIN_OR/Page_Amazon Sign-In/span_Your password is incorrect'), 0)
 
 WebUI.delay(2)
 

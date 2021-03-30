@@ -1,0 +1,567 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="TEST-S-LOGIN" time="113.016" tests="5" failures="0" skips="0" errors="0">
+   <testsuite name="TEST-S-LOGIN" tests="5" failures="0" errors="0" time="113.016" skips="0" timestamp="2021-03-30 13:38:36" hostname="joel_ - DESKTOP-EAUO6T0" id="Test Suites/LOGIN/TEST-S-LOGIN">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\joel_\\git\\TEST-EVERYTHING-PROJECT\\Reports\\20210330_133829\\LOGIN\\TEST-S-LOGIN\\20210330_133829"/>
+         <property name="logFiles" value="C:\\Users\\joel_\\git\\TEST-EVERYTHING-PROJECT\\Reports\\20210330_133829\\LOGIN\\TEST-S-LOGIN\\20210330_133829\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="joel_ - DESKTOP-EAUO6T0"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="7.9.1.208"/>
+         <property name="browser" value="Chrome 89.0.4389.90"/>
+         <property name="hostAddress" value="192.168.175.2"/>
+         <property name="sessionId" value="4f73bf782549c7ff8660b7c2f1c716a5"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/LOGIN-OUT/TEST-C-1" time="17.038" classname="Test Cases/LOGIN-OUT/TEST-C-1" status="PASSED">
+         <system-out><![CDATA[2021-03-30 13:38:38 - [TEST_CASE][PASSED] - Test Cases/LOGIN-OUT/TEST-C-1: Test Cases/LOGIN-OUT/TEST-C-1
+
+2021-03-30 13:38:39 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2021-03-30 13:38:39 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2021-03-30 13:38:39 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2021-03-30 13:38:41 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2021-03-30 13:38:41 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2021-03-30 13:38:41 - [MESSAGE][PASSED] - Current window maximized
+
+2021-03-30 13:38:41 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2021-03-30 13:38:43 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2021-03-30 13:38:43 - [TEST_STEP][PASSED] - navigateToUrl("https://www.amazon.com/-/es/ap/signin?openid.pape.max_auth_age=0&openid.return_to=https%3A%2F%2Fwww.amazon.com%2F%3Fref_%3Dnav_custrec_signin&openid.identity=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.assoc_handle=usflex&openid.mode=checkid_setup&openid.claimed_id=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.ns=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0&"): Navigate to 'https://www.amazon.com/-/es/ap/signin?openid.pape.max_auth_age=0&openid.return_to=https%3A%2F%2Fwww.amazon.com%2F%3Fref_%3Dnav_custrec_signin&openid.identity=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.assoc_handle=usflex&openid.mode=checkid_setup&openid.claimed_id=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.ns=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0&' successfully
+
+2021-03-30 13:38:45 - [MESSAGE][PASSED] - Navigate to 'https://www.amazon.com/-/es/ap/signin?openid.pape.max_auth_age=0&openid.return_to=https%3A%2F%2Fwww.amazon.com%2F%3Fref_%3Dnav_custrec_signin&openid.identity=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.assoc_handle=usflex&openid.mode=checkid_setup&openid.claimed_id=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.ns=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0&' successfully
+
+2021-03-30 13:38:45 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("LOGIN_OR/Page_Amazon Sign-In/input_Email or mobile phone number_email"), 0): Object 'Object Repository/LOGIN_OR/Page_Amazon Sign-In/input_Email or mobile phone number_email' is present
+
+2021-03-30 13:38:45 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2021-03-30 13:38:45 - [MESSAGE][PASSED] - Object 'Object Repository/LOGIN_OR/Page_Amazon Sign-In/input_Email or mobile phone number_email' is present
+
+2021-03-30 13:38:45 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("LOGIN_OR/Page_Amazon Sign-In/input_Email or mobile phone number_email")): Object 'Object Repository/LOGIN_OR/Page_Amazon Sign-In/input_Email or mobile phone number_email' is clickable
+
+2021-03-30 13:38:46 - [MESSAGE][PASSED] - Object 'Object Repository/LOGIN_OR/Page_Amazon Sign-In/input_Email or mobile phone number_email' is clickable
+
+2021-03-30 13:38:46 - [TEST_STEP][PASSED] - setText(findTestObject("LOGIN_OR/Page_Amazon Sign-In/input_Email or mobile phone number_email"), USERNAME_VAL): Text 'joel_j20@hotmail.com' is set on object 'Object Repository/LOGIN_OR/Page_Amazon Sign-In/input_Email or mobile phone number_email'
+
+2021-03-30 13:38:48 - [MESSAGE][PASSED] - Text 'joel_j20@hotmail.com' is set on object 'Object Repository/LOGIN_OR/Page_Amazon Sign-In/input_Email or mobile phone number_email'
+
+2021-03-30 13:38:48 - [TEST_STEP][PASSED] - click(findTestObject("LOGIN_OR/Page_Amazon Sign-In/input_Enter your email or mobile phone number_continue")): Object: 'Object Repository/LOGIN_OR/Page_Amazon Sign-In/input_Enter your email or mobile phone number_continue' is clicked on
+
+2021-03-30 13:38:49 - [MESSAGE][PASSED] - Object: 'Object Repository/LOGIN_OR/Page_Amazon Sign-In/input_Enter your email or mobile phone number_continue' is clicked on
+
+2021-03-30 13:38:49 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("LOGIN_OR/Page_Amazon Sign-In/input_Forgot your password_password"), 0): Object 'Object Repository/LOGIN_OR/Page_Amazon Sign-In/input_Forgot your password_password' is present
+
+2021-03-30 13:38:49 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2021-03-30 13:38:50 - [MESSAGE][PASSED] - Object 'Object Repository/LOGIN_OR/Page_Amazon Sign-In/input_Forgot your password_password' is present
+
+2021-03-30 13:38:50 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("LOGIN_OR/Page_Amazon Sign-In/input_Forgot your password_password")): Object 'Object Repository/LOGIN_OR/Page_Amazon Sign-In/input_Forgot your password_password' is clickable
+
+2021-03-30 13:38:50 - [MESSAGE][PASSED] - Object 'Object Repository/LOGIN_OR/Page_Amazon Sign-In/input_Forgot your password_password' is clickable
+
+2021-03-30 13:38:50 - [TEST_STEP][PASSED] - click(findTestObject("LOGIN_OR/Page_Amazon Sign-In/input_Forgot your password_password")): Object: 'Object Repository/LOGIN_OR/Page_Amazon Sign-In/input_Forgot your password_password' is clicked on
+
+2021-03-30 13:38:51 - [MESSAGE][PASSED] - Object: 'Object Repository/LOGIN_OR/Page_Amazon Sign-In/input_Forgot your password_password' is clicked on
+
+2021-03-30 13:38:51 - [TEST_STEP][PASSED] - setText(findTestObject("LOGIN_OR/Page_Amazon Sign-In/input_Forgot your password_password"), PASSWORD_VAL): Text 'Jb19982010' is set on object 'Object Repository/LOGIN_OR/Page_Amazon Sign-In/input_Forgot your password_password'
+
+2021-03-30 13:38:51 - [MESSAGE][PASSED] - Text 'Jb19982010' is set on object 'Object Repository/LOGIN_OR/Page_Amazon Sign-In/input_Forgot your password_password'
+
+2021-03-30 13:38:51 - [TEST_STEP][PASSED] - click(findTestObject("LOGIN_OR/Page_Amazon Sign-In/input_Enter your password_signInSubmit")): Object: 'Object Repository/LOGIN_OR/Page_Amazon Sign-In/input_Enter your password_signInSubmit' is clicked on
+
+2021-03-30 13:38:52 - [MESSAGE][PASSED] - Object: 'Object Repository/LOGIN_OR/Page_Amazon Sign-In/input_Enter your password_signInSubmit' is clicked on
+
+2021-03-30 13:38:52 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2021-03-30 13:38:55 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2021-03-30 13:38:55 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2021-03-30 13:38:55 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/LOGIN-OUT/TEST-C-2" time="16.724" classname="Test Cases/LOGIN-OUT/TEST-C-2" status="PASSED">
+         <system-out><![CDATA[2021-03-30 13:38:55 - [TEST_CASE][PASSED] - Test Cases/LOGIN-OUT/TEST-C-2: Test Cases/LOGIN-OUT/TEST-C-2
+
+2021-03-30 13:38:56 - [TEST_STEP][PASSED] - openBrowser(null): Browser is opened with url: 'null'
+
+2021-03-30 13:38:56 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2021-03-30 13:38:56 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2021-03-30 13:38:57 - [MESSAGE][PASSED] - Browser is opened with url: 'null'
+
+2021-03-30 13:38:57 - [TEST_STEP][PASSED] - navigateToUrl("https://www.amazon.com/-/es/ap/signin?openid.pape.max_auth_age=0&openid.return_to=https%3A%2F%2Fwww.amazon.com%2F%3Fref_%3Dnav_custrec_signin&openid.identity=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.assoc_handle=usflex&openid.mode=checkid_setup&openid.claimed_id=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.ns=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0&"): Navigate to 'https://www.amazon.com/-/es/ap/signin?openid.pape.max_auth_age=0&openid.return_to=https%3A%2F%2Fwww.amazon.com%2F%3Fref_%3Dnav_custrec_signin&openid.identity=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.assoc_handle=usflex&openid.mode=checkid_setup&openid.claimed_id=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.ns=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0&' successfully
+
+2021-03-30 13:38:59 - [MESSAGE][PASSED] - Navigate to 'https://www.amazon.com/-/es/ap/signin?openid.pape.max_auth_age=0&openid.return_to=https%3A%2F%2Fwww.amazon.com%2F%3Fref_%3Dnav_custrec_signin&openid.identity=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.assoc_handle=usflex&openid.mode=checkid_setup&openid.claimed_id=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.ns=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0&' successfully
+
+2021-03-30 13:38:59 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2021-03-30 13:38:59 - [MESSAGE][PASSED] - Current window maximized
+
+2021-03-30 13:38:59 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2021-03-30 13:39:01 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2021-03-30 13:39:01 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("LOGIN_OR/Page_Amazon Sign-In/input_Email or mobile phone number_email"), 0): Object 'Object Repository/LOGIN_OR/Page_Amazon Sign-In/input_Email or mobile phone number_email' is present
+
+2021-03-30 13:39:01 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2021-03-30 13:39:01 - [MESSAGE][PASSED] - Object 'Object Repository/LOGIN_OR/Page_Amazon Sign-In/input_Email or mobile phone number_email' is present
+
+2021-03-30 13:39:01 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("LOGIN_OR/Page_Amazon Sign-In/input_Email or mobile phone number_email")): Object 'Object Repository/LOGIN_OR/Page_Amazon Sign-In/input_Email or mobile phone number_email' is clickable
+
+2021-03-30 13:39:01 - [MESSAGE][PASSED] - Object 'Object Repository/LOGIN_OR/Page_Amazon Sign-In/input_Email or mobile phone number_email' is clickable
+
+2021-03-30 13:39:01 - [TEST_STEP][PASSED] - click(findTestObject("LOGIN_OR/Page_Amazon Sign-In/input_Email or mobile phone number_email")): Object: 'Object Repository/LOGIN_OR/Page_Amazon Sign-In/input_Email or mobile phone number_email' is clicked on
+
+2021-03-30 13:39:02 - [MESSAGE][PASSED] - Object: 'Object Repository/LOGIN_OR/Page_Amazon Sign-In/input_Email or mobile phone number_email' is clicked on
+
+2021-03-30 13:39:02 - [TEST_STEP][PASSED] - setText(findTestObject("LOGIN_OR/Page_Amazon Sign-In/input_Email or mobile phone number_email"), USERNAME_VAL): Text 'joel_j20@hotmail.com' is set on object 'Object Repository/LOGIN_OR/Page_Amazon Sign-In/input_Email or mobile phone number_email'
+
+2021-03-30 13:39:02 - [MESSAGE][PASSED] - Text 'joel_j20@hotmail.com' is set on object 'Object Repository/LOGIN_OR/Page_Amazon Sign-In/input_Email or mobile phone number_email'
+
+2021-03-30 13:39:02 - [TEST_STEP][PASSED] - click(findTestObject("LOGIN_OR/Page_Amazon Sign-In/input_Enter your email or mobile phone number_continue")): Object: 'Object Repository/LOGIN_OR/Page_Amazon Sign-In/input_Enter your email or mobile phone number_continue' is clicked on
+
+2021-03-30 13:39:05 - [MESSAGE][PASSED] - Object: 'Object Repository/LOGIN_OR/Page_Amazon Sign-In/input_Enter your email or mobile phone number_continue' is clicked on
+
+2021-03-30 13:39:05 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("LOGIN_OR/Page_Amazon Sign-In/input_Forgot your password_password"), 0): Object 'Object Repository/LOGIN_OR/Page_Amazon Sign-In/input_Forgot your password_password' is present
+
+2021-03-30 13:39:05 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2021-03-30 13:39:06 - [MESSAGE][PASSED] - Object 'Object Repository/LOGIN_OR/Page_Amazon Sign-In/input_Forgot your password_password' is present
+
+2021-03-30 13:39:06 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("LOGIN_OR/Page_Amazon Sign-In/input_Forgot your password_password")): Object 'Object Repository/LOGIN_OR/Page_Amazon Sign-In/input_Forgot your password_password' is clickable
+
+2021-03-30 13:39:06 - [MESSAGE][PASSED] - Object 'Object Repository/LOGIN_OR/Page_Amazon Sign-In/input_Forgot your password_password' is clickable
+
+2021-03-30 13:39:06 - [TEST_STEP][PASSED] - click(findTestObject("LOGIN_OR/Page_Amazon Sign-In/input_Forgot your password_password")): Object: 'Object Repository/LOGIN_OR/Page_Amazon Sign-In/input_Forgot your password_password' is clicked on
+
+2021-03-30 13:39:07 - [MESSAGE][PASSED] - Object: 'Object Repository/LOGIN_OR/Page_Amazon Sign-In/input_Forgot your password_password' is clicked on
+
+2021-03-30 13:39:07 - [TEST_STEP][PASSED] - setText(findTestObject("LOGIN_OR/Page_Amazon Sign-In/input_Forgot your password_password"), INV_PASSWORD): Text '82010' is set on object 'Object Repository/LOGIN_OR/Page_Amazon Sign-In/input_Forgot your password_password'
+
+2021-03-30 13:39:07 - [MESSAGE][PASSED] - Text '82010' is set on object 'Object Repository/LOGIN_OR/Page_Amazon Sign-In/input_Forgot your password_password'
+
+2021-03-30 13:39:07 - [TEST_STEP][PASSED] - click(findTestObject("LOGIN_OR/Page_Amazon Sign-In/input_Enter your password_signInSubmit")): Object: 'Object Repository/LOGIN_OR/Page_Amazon Sign-In/input_Enter your password_signInSubmit' is clicked on
+
+2021-03-30 13:39:08 - [MESSAGE][PASSED] - Object: 'Object Repository/LOGIN_OR/Page_Amazon Sign-In/input_Enter your password_signInSubmit' is clicked on
+
+2021-03-30 13:39:08 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("LOGIN_OR/Page_Amazon Sign-In/span_Your password is incorrect"), 0): Object 'Object Repository/LOGIN_OR/Page_Amazon Sign-In/span_Your password is incorrect' is present
+
+2021-03-30 13:39:08 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2021-03-30 13:39:09 - [MESSAGE][PASSED] - Object 'Object Repository/LOGIN_OR/Page_Amazon Sign-In/span_Your password is incorrect' is present
+
+2021-03-30 13:39:09 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2021-03-30 13:39:11 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2021-03-30 13:39:11 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2021-03-30 13:39:12 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/LOGIN-OUT/TEST-C-3" time="13.264" classname="Test Cases/LOGIN-OUT/TEST-C-3" status="PASSED">
+         <system-out><![CDATA[2021-03-30 13:39:12 - [TEST_CASE][PASSED] - Test Cases/LOGIN-OUT/TEST-C-3: Test Cases/LOGIN-OUT/TEST-C-3
+
+2021-03-30 13:39:12 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2021-03-30 13:39:12 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2021-03-30 13:39:12 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2021-03-30 13:39:14 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2021-03-30 13:39:14 - [TEST_STEP][PASSED] - navigateToUrl("https://www.amazon.com/-/es/ap/signin?openid.pape.max_auth_age=0&openid.return_to=https%3A%2F%2Fwww.amazon.com%2F%3Fref_%3Dnav_custrec_signin&openid.identity=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.assoc_handle=usflex&openid.mode=checkid_setup&openid.claimed_id=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.ns=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0&"): Navigate to 'https://www.amazon.com/-/es/ap/signin?openid.pape.max_auth_age=0&openid.return_to=https%3A%2F%2Fwww.amazon.com%2F%3Fref_%3Dnav_custrec_signin&openid.identity=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.assoc_handle=usflex&openid.mode=checkid_setup&openid.claimed_id=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.ns=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0&' successfully
+
+2021-03-30 13:39:15 - [MESSAGE][PASSED] - Navigate to 'https://www.amazon.com/-/es/ap/signin?openid.pape.max_auth_age=0&openid.return_to=https%3A%2F%2Fwww.amazon.com%2F%3Fref_%3Dnav_custrec_signin&openid.identity=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.assoc_handle=usflex&openid.mode=checkid_setup&openid.claimed_id=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.ns=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0&' successfully
+
+2021-03-30 13:39:15 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2021-03-30 13:39:15 - [MESSAGE][PASSED] - Current window maximized
+
+2021-03-30 13:39:15 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2021-03-30 13:39:17 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2021-03-30 13:39:17 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("LOGIN_OR/Page_Amazon Sign-In/input_Email or mobile phone number_email"), 0): Object 'Object Repository/LOGIN_OR/Page_Amazon Sign-In/input_Email or mobile phone number_email' is present
+
+2021-03-30 13:39:18 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2021-03-30 13:39:18 - [MESSAGE][PASSED] - Object 'Object Repository/LOGIN_OR/Page_Amazon Sign-In/input_Email or mobile phone number_email' is present
+
+2021-03-30 13:39:18 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("LOGIN_OR/Page_Amazon Sign-In/input_Email or mobile phone number_email")): Object 'Object Repository/LOGIN_OR/Page_Amazon Sign-In/input_Email or mobile phone number_email' is clickable
+
+2021-03-30 13:39:18 - [MESSAGE][PASSED] - Object 'Object Repository/LOGIN_OR/Page_Amazon Sign-In/input_Email or mobile phone number_email' is clickable
+
+2021-03-30 13:39:18 - [TEST_STEP][PASSED] - click(findTestObject("LOGIN_OR/Page_Amazon Sign-In/input_Email or mobile phone number_email")): Object: 'Object Repository/LOGIN_OR/Page_Amazon Sign-In/input_Email or mobile phone number_email' is clicked on
+
+2021-03-30 13:39:19 - [MESSAGE][PASSED] - Object: 'Object Repository/LOGIN_OR/Page_Amazon Sign-In/input_Email or mobile phone number_email' is clicked on
+
+2021-03-30 13:39:19 - [TEST_STEP][PASSED] - setText(findTestObject("LOGIN_OR/Page_Amazon Sign-In/input_Email or mobile phone number_email"), INV_USERNAME): Text 'joel_j20@GMAIL.com' is set on object 'Object Repository/LOGIN_OR/Page_Amazon Sign-In/input_Email or mobile phone number_email'
+
+2021-03-30 13:39:19 - [MESSAGE][PASSED] - Text 'joel_j20@GMAIL.com' is set on object 'Object Repository/LOGIN_OR/Page_Amazon Sign-In/input_Email or mobile phone number_email'
+
+2021-03-30 13:39:19 - [TEST_STEP][PASSED] - click(findTestObject("LOGIN_OR/Page_Amazon Sign-In/input_Enter your email or mobile phone number_continue")): Object: 'Object Repository/LOGIN_OR/Page_Amazon Sign-In/input_Enter your email or mobile phone number_continue' is clicked on
+
+2021-03-30 13:39:22 - [MESSAGE][PASSED] - Object: 'Object Repository/LOGIN_OR/Page_Amazon Sign-In/input_Enter your email or mobile phone number_continue' is clicked on
+
+2021-03-30 13:39:22 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("LOGIN_OR/Page_Amazon Sign-In/span_We cannot find an account with that email address"), 0): Object 'Object Repository/LOGIN_OR/Page_Amazon Sign-In/span_We cannot find an account with that email address' is present
+
+2021-03-30 13:39:22 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2021-03-30 13:39:23 - [MESSAGE][PASSED] - Object 'Object Repository/LOGIN_OR/Page_Amazon Sign-In/span_We cannot find an account with that email address' is present
+
+2021-03-30 13:39:23 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2021-03-30 13:39:25 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2021-03-30 13:39:25 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2021-03-30 13:39:25 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/LOGIN-OUT/TEST-C-4" time="13.597" classname="Test Cases/LOGIN-OUT/TEST-C-4" status="PASSED">
+         <system-out><![CDATA[2021-03-30 13:39:25 - [TEST_CASE][PASSED] - Test Cases/LOGIN-OUT/TEST-C-4: Test Cases/LOGIN-OUT/TEST-C-4
+
+2021-03-30 13:39:26 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2021-03-30 13:39:26 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2021-03-30 13:39:26 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2021-03-30 13:39:27 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2021-03-30 13:39:27 - [TEST_STEP][PASSED] - navigateToUrl("https://www.amazon.com/-/es/ap/signin?openid.pape.max_auth_age=0&openid.return_to=https%3A%2F%2Fwww.amazon.com%2F%3Fref_%3Dnav_custrec_signin&openid.identity=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.assoc_handle=usflex&openid.mode=checkid_setup&openid.claimed_id=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.ns=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0&"): Navigate to 'https://www.amazon.com/-/es/ap/signin?openid.pape.max_auth_age=0&openid.return_to=https%3A%2F%2Fwww.amazon.com%2F%3Fref_%3Dnav_custrec_signin&openid.identity=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.assoc_handle=usflex&openid.mode=checkid_setup&openid.claimed_id=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.ns=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0&' successfully
+
+2021-03-30 13:39:29 - [MESSAGE][PASSED] - Navigate to 'https://www.amazon.com/-/es/ap/signin?openid.pape.max_auth_age=0&openid.return_to=https%3A%2F%2Fwww.amazon.com%2F%3Fref_%3Dnav_custrec_signin&openid.identity=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.assoc_handle=usflex&openid.mode=checkid_setup&openid.claimed_id=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.ns=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0&' successfully
+
+2021-03-30 13:39:29 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2021-03-30 13:39:29 - [MESSAGE][PASSED] - Current window maximized
+
+2021-03-30 13:39:29 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2021-03-30 13:39:31 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2021-03-30 13:39:31 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("LOGIN_OR/Page_Amazon Sign-In/input_Email or mobile phone number_email"), 0): Object 'Object Repository/LOGIN_OR/Page_Amazon Sign-In/input_Email or mobile phone number_email' is present
+
+2021-03-30 13:39:31 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2021-03-30 13:39:31 - [MESSAGE][PASSED] - Object 'Object Repository/LOGIN_OR/Page_Amazon Sign-In/input_Email or mobile phone number_email' is present
+
+2021-03-30 13:39:31 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("LOGIN_OR/Page_Amazon Sign-In/input_Email or mobile phone number_email")): Object 'Object Repository/LOGIN_OR/Page_Amazon Sign-In/input_Email or mobile phone number_email' is clickable
+
+2021-03-30 13:39:31 - [MESSAGE][PASSED] - Object 'Object Repository/LOGIN_OR/Page_Amazon Sign-In/input_Email or mobile phone number_email' is clickable
+
+2021-03-30 13:39:31 - [TEST_STEP][PASSED] - setText(findTestObject("LOGIN_OR/Page_Amazon Sign-In/input_Email or mobile phone number_email"), INV_USERNAME): Text 'joel_j20@GMAIL.com' is set on object 'Object Repository/LOGIN_OR/Page_Amazon Sign-In/input_Email or mobile phone number_email'
+
+2021-03-30 13:39:32 - [MESSAGE][PASSED] - Text 'joel_j20@GMAIL.com' is set on object 'Object Repository/LOGIN_OR/Page_Amazon Sign-In/input_Email or mobile phone number_email'
+
+2021-03-30 13:39:32 - [TEST_STEP][PASSED] - click(findTestObject("LOGIN_OR/Page_Amazon Sign-In/input_Enter your email or mobile phone number_continue")): Object: 'Object Repository/LOGIN_OR/Page_Amazon Sign-In/input_Enter your email or mobile phone number_continue' is clicked on
+
+2021-03-30 13:39:35 - [MESSAGE][PASSED] - Object: 'Object Repository/LOGIN_OR/Page_Amazon Sign-In/input_Enter your email or mobile phone number_continue' is clicked on
+
+2021-03-30 13:39:35 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("LOGIN_OR/Page_Amazon Sign-In/div_There was a problem                                                                                  Your password is incorrect"), 0): Object 'Object Repository/LOGIN_OR/Page_Amazon Sign-In/div_There was a problem                                                                                  Your password is incorrect' is present
+
+2021-03-30 13:39:35 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2021-03-30 13:39:36 - [MESSAGE][PASSED] - Object 'Object Repository/LOGIN_OR/Page_Amazon Sign-In/div_There was a problem                                                                                  Your password is incorrect' is present
+
+2021-03-30 13:39:36 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2021-03-30 13:39:38 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2021-03-30 13:39:38 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2021-03-30 13:39:39 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/VERIFICAR-BOTON-PROPIEDAD-CLICK/TEST-C-5" time="50.118" classname="Test Cases/VERIFICAR-BOTON-PROPIEDAD-CLICK/TEST-C-5" status="PASSED">
+         <system-out><![CDATA[2021-03-30 13:39:39 - [TEST_CASE][PASSED] - Test Cases/VERIFICAR-BOTON-PROPIEDAD-CLICK/TEST-C-5: Test Cases/VERIFICAR-BOTON-PROPIEDAD-CLICK/TEST-C-5
+
+2021-03-30 13:39:39 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2021-03-30 13:39:39 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2021-03-30 13:39:39 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2021-03-30 13:39:40 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2021-03-30 13:39:40 - [TEST_STEP][PASSED] - navigateToUrl("https://www.amazon.com/-/es/ap/signin?openid.pape.max_auth_age=0&openid.return_to=https%3A%2F%2Fwww.amazon.com%2F%3Fref_%3Dnav_custrec_signin&openid.identity=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.assoc_handle=usflex&openid.mode=checkid_setup&openid.claimed_id=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.ns=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0&"): Navigate to 'https://www.amazon.com/-/es/ap/signin?openid.pape.max_auth_age=0&openid.return_to=https%3A%2F%2Fwww.amazon.com%2F%3Fref_%3Dnav_custrec_signin&openid.identity=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.assoc_handle=usflex&openid.mode=checkid_setup&openid.claimed_id=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.ns=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0&' successfully
+
+2021-03-30 13:39:43 - [MESSAGE][PASSED] - Navigate to 'https://www.amazon.com/-/es/ap/signin?openid.pape.max_auth_age=0&openid.return_to=https%3A%2F%2Fwww.amazon.com%2F%3Fref_%3Dnav_custrec_signin&openid.identity=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.assoc_handle=usflex&openid.mode=checkid_setup&openid.claimed_id=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.ns=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0&' successfully
+
+2021-03-30 13:39:43 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2021-03-30 13:39:43 - [MESSAGE][PASSED] - Current window maximized
+
+2021-03-30 13:39:43 - [TEST_STEP][PASSED] - delay(0): Delayed 0 second(s)
+
+2021-03-30 13:39:43 - [MESSAGE][PASSED] - Delayed 0 second(s)
+
+2021-03-30 13:39:43 - [TEST_STEP][PASSED] - setText(findTestObject("LOGIN_OR/Page_Amazon Sign-In/input_Email or mobile phone number_email"), USERNAME_VAL): Text 'joel_j20@hotmail.com' is set on object 'Object Repository/LOGIN_OR/Page_Amazon Sign-In/input_Email or mobile phone number_email'
+
+2021-03-30 13:39:44 - [MESSAGE][PASSED] - Text 'joel_j20@hotmail.com' is set on object 'Object Repository/LOGIN_OR/Page_Amazon Sign-In/input_Email or mobile phone number_email'
+
+2021-03-30 13:39:44 - [TEST_STEP][PASSED] - click(findTestObject("LOGIN_OR/Page_Amazon Sign-In/input_Enter your email or mobile phone number_continue")): Object: 'Object Repository/LOGIN_OR/Page_Amazon Sign-In/input_Enter your email or mobile phone number_continue' is clicked on
+
+2021-03-30 13:39:45 - [MESSAGE][PASSED] - Object: 'Object Repository/LOGIN_OR/Page_Amazon Sign-In/input_Enter your email or mobile phone number_continue' is clicked on
+
+2021-03-30 13:39:45 - [TEST_STEP][PASSED] - setText(findTestObject("LOGIN_OR/Page_Amazon Sign-In/input_Forgot your password_password"), PASSWORD_VAL): Text 'Jb19982010' is set on object 'Object Repository/LOGIN_OR/Page_Amazon Sign-In/input_Forgot your password_password'
+
+2021-03-30 13:39:46 - [MESSAGE][PASSED] - Text 'Jb19982010' is set on object 'Object Repository/LOGIN_OR/Page_Amazon Sign-In/input_Forgot your password_password'
+
+2021-03-30 13:39:46 - [TEST_STEP][PASSED] - click(findTestObject("LOGIN_OR/Page_Amazon Sign-In/input_Enter your password_signInSubmit")): Object: 'Object Repository/LOGIN_OR/Page_Amazon Sign-In/input_Enter your password_signInSubmit' is clicked on
+
+2021-03-30 13:39:46 - [MESSAGE][PASSED] - Object: 'Object Repository/LOGIN_OR/Page_Amazon Sign-In/input_Enter your password_signInSubmit' is clicked on
+
+2021-03-30 13:39:46 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2021-03-30 13:39:49 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2021-03-30 13:39:49 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("ELEMENT_TO_VERIFY_OR/Page_Amazon.com Online Shopping for Electronics, Apparel, Computers, Books, DVDs  more/a_.us"), 0): Object 'Object Repository/ELEMENT_TO_VERIFY_OR/Page_Amazon.com Online Shopping for Electronics, Apparel, Computers, Books, DVDs  more/a_.us' is present
+
+2021-03-30 13:39:49 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2021-03-30 13:39:55 - [MESSAGE][PASSED] - Object 'Object Repository/ELEMENT_TO_VERIFY_OR/Page_Amazon.com Online Shopping for Electronics, Apparel, Computers, Books, DVDs  more/a_.us' is present
+
+2021-03-30 13:39:55 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("ELEMENT_TO_VERIFY_OR/Page_Amazon.com Online Shopping for Electronics, Apparel, Computers, Books, DVDs  more/a_6pmScore dealson fashion brands"), 0): Object 'Object Repository/ELEMENT_TO_VERIFY_OR/Page_Amazon.com Online Shopping for Electronics, Apparel, Computers, Books, DVDs  more/a_6pmScore dealson fashion brands' is present
+
+2021-03-30 13:39:55 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2021-03-30 13:39:57 - [MESSAGE][PASSED] - Object 'Object Repository/ELEMENT_TO_VERIFY_OR/Page_Amazon.com Online Shopping for Electronics, Apparel, Computers, Books, DVDs  more/a_6pmScore dealson fashion brands' is present
+
+2021-03-30 13:39:57 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("ELEMENT_TO_VERIFY_OR/Page_Amazon.com Online Shopping for Electronics, Apparel, Computers, Books, DVDs  more/a_7                                                Cart"), 0): Object 'Object Repository/ELEMENT_TO_VERIFY_OR/Page_Amazon.com Online Shopping for Electronics, Apparel, Computers, Books, DVDs  more/a_7                                                Cart' is present
+
+2021-03-30 13:39:57 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2021-03-30 13:39:59 - [MESSAGE][PASSED] - Object 'Object Repository/ELEMENT_TO_VERIFY_OR/Page_Amazon.com Online Shopping for Electronics, Apparel, Computers, Books, DVDs  more/a_7                                                Cart' is present
+
+2021-03-30 13:39:59 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("ELEMENT_TO_VERIFY_OR/Page_Amazon.com Online Shopping for Electronics, Apparel, Computers, Books, DVDs  more/a_AbeBooksBooks, art collectibles"), 0): Object 'Object Repository/ELEMENT_TO_VERIFY_OR/Page_Amazon.com Online Shopping for Electronics, Apparel, Computers, Books, DVDs  more/a_AbeBooksBooks, art collectibles' is present
+
+2021-03-30 13:39:59 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2021-03-30 13:40:01 - [MESSAGE][PASSED] - Object 'Object Repository/ELEMENT_TO_VERIFY_OR/Page_Amazon.com Online Shopping for Electronics, Apparel, Computers, Books, DVDs  more/a_AbeBooksBooks, art collectibles' is present
+
+2021-03-30 13:40:01 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("ELEMENT_TO_VERIFY_OR/Page_Amazon.com Online Shopping for Electronics, Apparel, Computers, Books, DVDs  more/a_AbeBooksBooks, art collectibles (1)"), 0): Object 'Object Repository/ELEMENT_TO_VERIFY_OR/Page_Amazon.com Online Shopping for Electronics, Apparel, Computers, Books, DVDs  more/a_AbeBooksBooks, art collectibles (1)' is present
+
+2021-03-30 13:40:01 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2021-03-30 13:40:01 - [MESSAGE][PASSED] - Object 'Object Repository/ELEMENT_TO_VERIFY_OR/Page_Amazon.com Online Shopping for Electronics, Apparel, Computers, Books, DVDs  more/a_AbeBooksBooks, art collectibles (1)' is present
+
+2021-03-30 13:40:01 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("ELEMENT_TO_VERIFY_OR/Page_Amazon.com Online Shopping for Electronics, Apparel, Computers, Books, DVDs  more/a_Amazon AdvertisingFind, attract, andengage customers"), 0): Object 'Object Repository/ELEMENT_TO_VERIFY_OR/Page_Amazon.com Online Shopping for Electronics, Apparel, Computers, Books, DVDs  more/a_Amazon AdvertisingFind, attract, andengage customers' is present
+
+2021-03-30 13:40:01 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2021-03-30 13:40:03 - [MESSAGE][PASSED] - Object 'Object Repository/ELEMENT_TO_VERIFY_OR/Page_Amazon.com Online Shopping for Electronics, Apparel, Computers, Books, DVDs  more/a_Amazon AdvertisingFind, attract, andengage customers' is present
+
+2021-03-30 13:40:03 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("ELEMENT_TO_VERIFY_OR/Page_Gold Box Deals  Todays Deals - Amazon.com/a_Amazon Basics"), 0): Object 'Object Repository/ELEMENT_TO_VERIFY_OR/Page_Gold Box Deals  Todays Deals - Amazon.com/a_Amazon Basics' is present
+
+2021-03-30 13:40:03 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2021-03-30 13:40:03 - [MESSAGE][PASSED] - Object 'Object Repository/ELEMENT_TO_VERIFY_OR/Page_Gold Box Deals  Todays Deals - Amazon.com/a_Amazon Basics' is present
+
+2021-03-30 13:40:03 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("ELEMENT_TO_VERIFY_OR/Page_Gold Box Deals  Todays Deals - Amazon.com/a_Amazon Home"), 0): Object 'Object Repository/ELEMENT_TO_VERIFY_OR/Page_Gold Box Deals  Todays Deals - Amazon.com/a_Amazon Home' is present
+
+2021-03-30 13:40:03 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2021-03-30 13:40:04 - [MESSAGE][PASSED] - Object 'Object Repository/ELEMENT_TO_VERIFY_OR/Page_Gold Box Deals  Todays Deals - Amazon.com/a_Amazon Home' is present
+
+2021-03-30 13:40:04 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("ELEMENT_TO_VERIFY_OR/Page_Gold Box Deals  Todays Deals - Amazon.com/a_Best Sellers"), 0): Object 'Object Repository/ELEMENT_TO_VERIFY_OR/Page_Gold Box Deals  Todays Deals - Amazon.com/a_Best Sellers' is present
+
+2021-03-30 13:40:04 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2021-03-30 13:40:05 - [MESSAGE][PASSED] - Object 'Object Repository/ELEMENT_TO_VERIFY_OR/Page_Gold Box Deals  Todays Deals - Amazon.com/a_Best Sellers' is present
+
+2021-03-30 13:40:05 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("ELEMENT_TO_VERIFY_OR/Page_Gold Box Deals  Todays Deals - Amazon.com/a_Pet Supplies"), 0): Object 'Object Repository/ELEMENT_TO_VERIFY_OR/Page_Gold Box Deals  Todays Deals - Amazon.com/a_Pet Supplies' is present
+
+2021-03-30 13:40:05 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2021-03-30 13:40:05 - [MESSAGE][PASSED] - Object 'Object Repository/ELEMENT_TO_VERIFY_OR/Page_Gold Box Deals  Todays Deals - Amazon.com/a_Pet Supplies' is present
+
+2021-03-30 13:40:05 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("ELEMENT_TO_VERIFY_OR/Page_Gold Box Deals  Todays Deals - Amazon.com/a_Pharmacy"), 0): Object 'Object Repository/ELEMENT_TO_VERIFY_OR/Page_Gold Box Deals  Todays Deals - Amazon.com/a_Pharmacy' is present
+
+2021-03-30 13:40:05 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2021-03-30 13:40:06 - [MESSAGE][PASSED] - Object 'Object Repository/ELEMENT_TO_VERIFY_OR/Page_Gold Box Deals  Todays Deals - Amazon.com/a_Pharmacy' is present
+
+2021-03-30 13:40:06 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("ELEMENT_TO_VERIFY_OR/Page_Gold Box Deals  Todays Deals - Amazon.com/a_Shop gift ideas for Mom"), 0): Object 'Object Repository/ELEMENT_TO_VERIFY_OR/Page_Gold Box Deals  Todays Deals - Amazon.com/a_Shop gift ideas for Mom' is present
+
+2021-03-30 13:40:06 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2021-03-30 13:40:07 - [MESSAGE][PASSED] - Object 'Object Repository/ELEMENT_TO_VERIFY_OR/Page_Gold Box Deals  Todays Deals - Amazon.com/a_Shop gift ideas for Mom' is present
+
+2021-03-30 13:40:07 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("ELEMENT_TO_VERIFY_OR/Page_Gold Box Deals  Todays Deals - Amazon.com/a_Shopper Toolkit"), 0): Object 'Object Repository/ELEMENT_TO_VERIFY_OR/Page_Gold Box Deals  Todays Deals - Amazon.com/a_Shopper Toolkit' is present
+
+2021-03-30 13:40:07 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2021-03-30 13:40:07 - [MESSAGE][PASSED] - Object 'Object Repository/ELEMENT_TO_VERIFY_OR/Page_Gold Box Deals  Todays Deals - Amazon.com/a_Shopper Toolkit' is present
+
+2021-03-30 13:40:07 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("ELEMENT_TO_VERIFY_OR/Page_Gold Box Deals  Todays Deals - Amazon.com/a_Subscribe  Save"), 0): Object 'Object Repository/ELEMENT_TO_VERIFY_OR/Page_Gold Box Deals  Todays Deals - Amazon.com/a_Subscribe  Save' is present
+
+2021-03-30 13:40:07 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2021-03-30 13:40:09 - [MESSAGE][PASSED] - Object 'Object Repository/ELEMENT_TO_VERIFY_OR/Page_Gold Box Deals  Todays Deals - Amazon.com/a_Subscribe  Save' is present
+
+2021-03-30 13:40:09 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("ELEMENT_TO_VERIFY_OR/Page_Amazon.com Online Shopping for Electronics, Apparel, Computers, Books, DVDs  more/a_Amazon DriveCloud storagefrom Amazon"), 0): Scroll to object 'Object Repository/ELEMENT_TO_VERIFY_OR/Page_Amazon.com Online Shopping for Electronics, Apparel, Computers, Books, DVDs  more/a_Amazon DriveCloud storagefrom Amazon' successfully
+
+2021-03-30 13:40:09 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2021-03-30 13:40:09 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/ELEMENT_TO_VERIFY_OR/Page_Amazon.com Online Shopping for Electronics, Apparel, Computers, Books, DVDs  more/a_Amazon DriveCloud storagefrom Amazon' successfully
+
+2021-03-30 13:40:09 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("ELEMENT_TO_VERIFY_OR/Page_Amazon.com Online Shopping for Electronics, Apparel, Computers, Books, DVDs  more/a_Amazon DriveCloud storagefrom Amazon"), 0): Object 'Object Repository/ELEMENT_TO_VERIFY_OR/Page_Amazon.com Online Shopping for Electronics, Apparel, Computers, Books, DVDs  more/a_Amazon DriveCloud storagefrom Amazon' is present
+
+2021-03-30 13:40:09 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2021-03-30 13:40:11 - [MESSAGE][PASSED] - Object 'Object Repository/ELEMENT_TO_VERIFY_OR/Page_Amazon.com Online Shopping for Electronics, Apparel, Computers, Books, DVDs  more/a_Amazon DriveCloud storagefrom Amazon' is present
+
+2021-03-30 13:40:11 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("ELEMENT_TO_VERIFY_OR/Page_Amazon.com Online Shopping for Electronics, Apparel, Computers, Books, DVDs  more/a_Amazon FreshGroceries  MoreRight To Your Door"), 0): Object 'Object Repository/ELEMENT_TO_VERIFY_OR/Page_Amazon.com Online Shopping for Electronics, Apparel, Computers, Books, DVDs  more/a_Amazon FreshGroceries  MoreRight To Your Door' is present
+
+2021-03-30 13:40:12 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2021-03-30 13:40:12 - [MESSAGE][PASSED] - Object 'Object Repository/ELEMENT_TO_VERIFY_OR/Page_Amazon.com Online Shopping for Electronics, Apparel, Computers, Books, DVDs  more/a_Amazon FreshGroceries  MoreRight To Your Door' is present
+
+2021-03-30 13:40:12 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("ELEMENT_TO_VERIFY_OR/Page_Amazon.com Online Shopping for Electronics, Apparel, Computers, Books, DVDs  more/a_Amazon MusicStream millionsof songs"), 0): Object 'Object Repository/ELEMENT_TO_VERIFY_OR/Page_Amazon.com Online Shopping for Electronics, Apparel, Computers, Books, DVDs  more/a_Amazon MusicStream millionsof songs' is present
+
+2021-03-30 13:40:13 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2021-03-30 13:40:13 - [MESSAGE][PASSED] - Object 'Object Repository/ELEMENT_TO_VERIFY_OR/Page_Amazon.com Online Shopping for Electronics, Apparel, Computers, Books, DVDs  more/a_Amazon MusicStream millionsof songs' is present
+
+2021-03-30 13:40:13 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("ELEMENT_TO_VERIFY_OR/Page_Amazon.com Online Shopping for Electronics, Apparel, Computers, Books, DVDs  more/a_Amazon PhotosUnlimited Photo StorageFree With Prime"), 0): Object 'Object Repository/ELEMENT_TO_VERIFY_OR/Page_Amazon.com Online Shopping for Electronics, Apparel, Computers, Books, DVDs  more/a_Amazon PhotosUnlimited Photo StorageFree With Prime' is present
+
+2021-03-30 13:40:13 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2021-03-30 13:40:13 - [MESSAGE][PASSED] - Object 'Object Repository/ELEMENT_TO_VERIFY_OR/Page_Amazon.com Online Shopping for Electronics, Apparel, Computers, Books, DVDs  more/a_Amazon PhotosUnlimited Photo StorageFree With Prime' is present
+
+2021-03-30 13:40:13 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("ELEMENT_TO_VERIFY_OR/Page_Amazon.com Online Shopping for Electronics, Apparel, Computers, Books, DVDs  more/a_Amazon Subscription BoxesTop subscription boxes  right to your door"), 0): Object 'Object Repository/ELEMENT_TO_VERIFY_OR/Page_Amazon.com Online Shopping for Electronics, Apparel, Computers, Books, DVDs  more/a_Amazon Subscription BoxesTop subscription boxes  right to your door' is present
+
+2021-03-30 13:40:13 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2021-03-30 13:40:14 - [MESSAGE][PASSED] - Object 'Object Repository/ELEMENT_TO_VERIFY_OR/Page_Amazon.com Online Shopping for Electronics, Apparel, Computers, Books, DVDs  more/a_Amazon Subscription BoxesTop subscription boxes  right to your door' is present
+
+2021-03-30 13:40:14 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("ELEMENT_TO_VERIFY_OR/Page_Amazon.com Online Shopping for Electronics, Apparel, Computers, Books, DVDs  more/a_AmazonGlobalShip OrdersInternationally"), 0): Object 'Object Repository/ELEMENT_TO_VERIFY_OR/Page_Amazon.com Online Shopping for Electronics, Apparel, Computers, Books, DVDs  more/a_AmazonGlobalShip OrdersInternationally' is present
+
+2021-03-30 13:40:14 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2021-03-30 13:40:15 - [MESSAGE][PASSED] - Object 'Object Repository/ELEMENT_TO_VERIFY_OR/Page_Amazon.com Online Shopping for Electronics, Apparel, Computers, Books, DVDs  more/a_AmazonGlobalShip OrdersInternationally' is present
+
+2021-03-30 13:40:15 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("ELEMENT_TO_VERIFY_OR/Page_Amazon.com Online Shopping for Electronics, Apparel, Computers, Books, DVDs  more/a_Buy Again"), 0): Object 'Object Repository/ELEMENT_TO_VERIFY_OR/Page_Amazon.com Online Shopping for Electronics, Apparel, Computers, Books, DVDs  more/a_Buy Again' is present
+
+2021-03-30 13:40:15 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2021-03-30 13:40:15 - [MESSAGE][PASSED] - Object 'Object Repository/ELEMENT_TO_VERIFY_OR/Page_Amazon.com Online Shopping for Electronics, Apparel, Computers, Books, DVDs  more/a_Buy Again' is present
+
+2021-03-30 13:40:15 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("ELEMENT_TO_VERIFY_OR/Page_Amazon.com Online Shopping for Electronics, Apparel, Computers, Books, DVDs  more/a_Computers"), 0): Object 'Object Repository/ELEMENT_TO_VERIFY_OR/Page_Amazon.com Online Shopping for Electronics, Apparel, Computers, Books, DVDs  more/a_Computers' is present
+
+2021-03-30 13:40:15 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2021-03-30 13:40:17 - [MESSAGE][PASSED] - Object 'Object Repository/ELEMENT_TO_VERIFY_OR/Page_Amazon.com Online Shopping for Electronics, Apparel, Computers, Books, DVDs  more/a_Computers' is present
+
+2021-03-30 13:40:17 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("ELEMENT_TO_VERIFY_OR/Page_Amazon.com Online Shopping for Electronics, Apparel, Computers, Books, DVDs  more/a_Coupons"), 0): Object 'Object Repository/ELEMENT_TO_VERIFY_OR/Page_Amazon.com Online Shopping for Electronics, Apparel, Computers, Books, DVDs  more/a_Coupons' is present
+
+2021-03-30 13:40:17 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2021-03-30 13:40:17 - [MESSAGE][PASSED] - Object 'Object Repository/ELEMENT_TO_VERIFY_OR/Page_Amazon.com Online Shopping for Electronics, Apparel, Computers, Books, DVDs  more/a_Coupons' is present
+
+2021-03-30 13:40:17 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("ELEMENT_TO_VERIFY_OR/Page_Amazon.com Online Shopping for Electronics, Apparel, Computers, Books, DVDs  more/a_Deliver to SDQ                                                   Miami 33192"), 0): Object 'Object Repository/ELEMENT_TO_VERIFY_OR/Page_Amazon.com Online Shopping for Electronics, Apparel, Computers, Books, DVDs  more/a_Deliver to SDQ                                                   Miami 33192' is present
+
+2021-03-30 13:40:17 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2021-03-30 13:40:18 - [MESSAGE][PASSED] - Object 'Object Repository/ELEMENT_TO_VERIFY_OR/Page_Amazon.com Online Shopping for Electronics, Apparel, Computers, Books, DVDs  more/a_Deliver to SDQ                                                   Miami 33192' is present
+
+2021-03-30 13:40:18 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("ELEMENT_TO_VERIFY_OR/Page_Amazon.com Online Shopping for Electronics, Apparel, Computers, Books, DVDs  more/a_DPReviewDigitalPhotography"), 0): Object 'Object Repository/ELEMENT_TO_VERIFY_OR/Page_Amazon.com Online Shopping for Electronics, Apparel, Computers, Books, DVDs  more/a_DPReviewDigitalPhotography' is present
+
+2021-03-30 13:40:18 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2021-03-30 13:40:18 - [MESSAGE][PASSED] - Object 'Object Repository/ELEMENT_TO_VERIFY_OR/Page_Amazon.com Online Shopping for Electronics, Apparel, Computers, Books, DVDs  more/a_DPReviewDigitalPhotography' is present
+
+2021-03-30 13:40:18 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("ELEMENT_TO_VERIFY_OR/Page_Amazon.com Online Shopping for Electronics, Apparel, Computers, Books, DVDs  more/a_GoodreadsBook reviews recommendations"), 0): Object 'Object Repository/ELEMENT_TO_VERIFY_OR/Page_Amazon.com Online Shopping for Electronics, Apparel, Computers, Books, DVDs  more/a_GoodreadsBook reviews recommendations' is present
+
+2021-03-30 13:40:19 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2021-03-30 13:40:19 - [MESSAGE][PASSED] - Object 'Object Repository/ELEMENT_TO_VERIFY_OR/Page_Amazon.com Online Shopping for Electronics, Apparel, Computers, Books, DVDs  more/a_GoodreadsBook reviews recommendations' is present
+
+2021-03-30 13:40:19 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("ELEMENT_TO_VERIFY_OR/Page_Amazon.com Online Shopping for Electronics, Apparel, Computers, Books, DVDs  more/a_Home ServicesExperienced ProsHappiness Guarantee"), 0): Object 'Object Repository/ELEMENT_TO_VERIFY_OR/Page_Amazon.com Online Shopping for Electronics, Apparel, Computers, Books, DVDs  more/a_Home ServicesExperienced ProsHappiness Guarantee' is present
+
+2021-03-30 13:40:19 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2021-03-30 13:40:21 - [MESSAGE][PASSED] - Object 'Object Repository/ELEMENT_TO_VERIFY_OR/Page_Amazon.com Online Shopping for Electronics, Apparel, Computers, Books, DVDs  more/a_Home ServicesExperienced ProsHappiness Guarantee' is present
+
+2021-03-30 13:40:21 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("ELEMENT_TO_VERIFY_OR/Page_Amazon.com Online Shopping for Electronics, Apparel, Computers, Books, DVDs  more/a_IMDbMovies, TV Celebrities"), 0): Object 'Object Repository/ELEMENT_TO_VERIFY_OR/Page_Amazon.com Online Shopping for Electronics, Apparel, Computers, Books, DVDs  more/a_IMDbMovies, TV Celebrities' is present
+
+2021-03-30 13:40:21 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2021-03-30 13:40:21 - [MESSAGE][PASSED] - Object 'Object Repository/ELEMENT_TO_VERIFY_OR/Page_Amazon.com Online Shopping for Electronics, Apparel, Computers, Books, DVDs  more/a_IMDbMovies, TV Celebrities' is present
+
+2021-03-30 13:40:21 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("ELEMENT_TO_VERIFY_OR/Page_Amazon.com Online Shopping for Electronics, Apparel, Computers, Books, DVDs  more/a_Kindle Direct PublishingIndie Digital  Print PublishingMade Easy"), 0): Object 'Object Repository/ELEMENT_TO_VERIFY_OR/Page_Amazon.com Online Shopping for Electronics, Apparel, Computers, Books, DVDs  more/a_Kindle Direct PublishingIndie Digital  Print PublishingMade Easy' is present
+
+2021-03-30 13:40:21 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2021-03-30 13:40:22 - [MESSAGE][PASSED] - Object 'Object Repository/ELEMENT_TO_VERIFY_OR/Page_Amazon.com Online Shopping for Electronics, Apparel, Computers, Books, DVDs  more/a_Kindle Direct PublishingIndie Digital  Print PublishingMade Easy' is present
+
+2021-03-30 13:40:22 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("ELEMENT_TO_VERIFY_OR/Page_Amazon.com Online Shopping for Electronics, Apparel, Computers, Books, DVDs  more/a_PillPackPharmacy Simplified"), 0): Object 'Object Repository/ELEMENT_TO_VERIFY_OR/Page_Amazon.com Online Shopping for Electronics, Apparel, Computers, Books, DVDs  more/a_PillPackPharmacy Simplified' is present
+
+2021-03-30 13:40:22 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2021-03-30 13:40:22 - [MESSAGE][PASSED] - Object 'Object Repository/ELEMENT_TO_VERIFY_OR/Page_Amazon.com Online Shopping for Electronics, Apparel, Computers, Books, DVDs  more/a_PillPackPharmacy Simplified' is present
+
+2021-03-30 13:40:22 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("ELEMENT_TO_VERIFY_OR/Page_Amazon.com Online Shopping for Electronics, Apparel, Computers, Books, DVDs  more/span_Returns"), 0): Object 'Object Repository/ELEMENT_TO_VERIFY_OR/Page_Amazon.com Online Shopping for Electronics, Apparel, Computers, Books, DVDs  more/span_Returns' is present
+
+2021-03-30 13:40:22 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2021-03-30 13:40:23 - [MESSAGE][PASSED] - Object 'Object Repository/ELEMENT_TO_VERIFY_OR/Page_Amazon.com Online Shopping for Electronics, Apparel, Computers, Books, DVDs  more/span_Returns' is present
+
+2021-03-30 13:40:23 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("ELEMENT_TO_VERIFY_OR/Page_Amazon.com Online Shopping for Electronics, Apparel, Computers, Books, DVDs  more/span_Miami 33192"), 0): Object 'Object Repository/ELEMENT_TO_VERIFY_OR/Page_Amazon.com Online Shopping for Electronics, Apparel, Computers, Books, DVDs  more/span_Miami 33192' is present
+
+2021-03-30 13:40:23 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2021-03-30 13:40:23 - [MESSAGE][PASSED] - Object 'Object Repository/ELEMENT_TO_VERIFY_OR/Page_Amazon.com Online Shopping for Electronics, Apparel, Computers, Books, DVDs  more/span_Miami 33192' is present
+
+2021-03-30 13:40:23 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("ELEMENT_TO_VERIFY_OR/Page_Amazon.com Online Shopping for Electronics, Apparel, Computers, Books, DVDs  more/span_Deliver to SDQ"), 0): Object 'Object Repository/ELEMENT_TO_VERIFY_OR/Page_Amazon.com Online Shopping for Electronics, Apparel, Computers, Books, DVDs  more/span_Deliver to SDQ' is present
+
+2021-03-30 13:40:23 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2021-03-30 13:40:24 - [MESSAGE][PASSED] - Object 'Object Repository/ELEMENT_TO_VERIFY_OR/Page_Amazon.com Online Shopping for Electronics, Apparel, Computers, Books, DVDs  more/span_Deliver to SDQ' is present
+
+2021-03-30 13:40:24 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("ELEMENT_TO_VERIFY_OR/Page_Amazon.com Online Shopping for Electronics, Apparel, Computers, Books, DVDs  more/span_All_icp-nav-link-inner"), 0): Object 'Object Repository/ELEMENT_TO_VERIFY_OR/Page_Amazon.com Online Shopping for Electronics, Apparel, Computers, Books, DVDs  more/span_All_icp-nav-link-inner' is present
+
+2021-03-30 13:40:24 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2021-03-30 13:40:24 - [MESSAGE][PASSED] - Object 'Object Repository/ELEMENT_TO_VERIFY_OR/Page_Amazon.com Online Shopping for Electronics, Apparel, Computers, Books, DVDs  more/span_All_icp-nav-link-inner' is present
+
+2021-03-30 13:40:24 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("ELEMENT_TO_VERIFY_OR/Page_Amazon.com Online Shopping for Electronics, Apparel, Computers, Books, DVDs  more/span_Account  Lists"), 0): Object 'Object Repository/ELEMENT_TO_VERIFY_OR/Page_Amazon.com Online Shopping for Electronics, Apparel, Computers, Books, DVDs  more/span_Account  Lists' is present
+
+2021-03-30 13:40:24 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2021-03-30 13:40:25 - [MESSAGE][PASSED] - Object 'Object Repository/ELEMENT_TO_VERIFY_OR/Page_Amazon.com Online Shopping for Electronics, Apparel, Computers, Books, DVDs  more/span_Account  Lists' is present
+
+2021-03-30 13:40:25 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("ELEMENT_TO_VERIFY_OR/Page_Amazon.com Online Shopping for Electronics, Apparel, Computers, Books, DVDs  more/span_ Orders"), 0): Object 'Object Repository/ELEMENT_TO_VERIFY_OR/Page_Amazon.com Online Shopping for Electronics, Apparel, Computers, Books, DVDs  more/span_ Orders' is present
+
+2021-03-30 13:40:25 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2021-03-30 13:40:25 - [MESSAGE][PASSED] - Object 'Object Repository/ELEMENT_TO_VERIFY_OR/Page_Amazon.com Online Shopping for Electronics, Apparel, Computers, Books, DVDs  more/span_ Orders' is present
+
+2021-03-30 13:40:25 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2021-03-30 13:40:28 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2021-03-30 13:40:28 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2021-03-30 13:40:29 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2021-03-30 13:38:36 - [TEST_SUITE][PASSED] - TEST-S-LOGIN: Test Cases/VERIFICAR-BOTON-PROPIEDAD-CLICK/TEST-C-5]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

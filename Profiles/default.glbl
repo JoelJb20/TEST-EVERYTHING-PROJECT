@@ -24,4 +24,9 @@
       <initValue>findTestData('LOGIN/LOGIN-DATA').getValue(2, 2)</initValue>
       <name>INV_PASSWORD</name>
    </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>findTestData('BUSCADOR/BUSCADOR_DATA').getValue(1, 1)</initValue>
+      <name>BUSCADOR_DATA</name>
+   </GlobalVariableEntity>
 </GlobalVariableEntities>
