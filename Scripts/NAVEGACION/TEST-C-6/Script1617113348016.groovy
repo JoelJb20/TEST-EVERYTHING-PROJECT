@@ -19,8 +19,6 @@ import org.openqa.selenium.Keys as Keys
 
 
 
-
-
 //HACER UNA BUSQUEDA DE UN ARTICULO -----------TEST-C-6------------
 
 
@@ -41,7 +39,7 @@ WebUI.setText(findTestObject('LOGIN_OR/Page_Amazon Sign-In/input_Forgot your pas
 
 WebUI.click(findTestObject('LOGIN_OR/Page_Amazon Sign-In/input_Enter your password_signInSubmit'))
 
-for (def rowdata = 1; rowdata <= 14; rowdata++) {
+for (def rowdata = 1; rowdata <= findTestData("Data Files/BUSCADOR/BUSCADOR_DATA").getRowNumbers(); rowdata++) {
 	
     WebUI.setText(findTestObject('ELEMENT_TO_VERIFY_OR/Page_Gold Box Deals  Todays Deals - Amazon.com/Page_Amazon.com Online Shopping for Electronics, Apparel, Computers, Books, DVDs  more/input_All_field-keywords'), 
          findTestData("Data Files/BUSCADOR/BUSCADOR_DATA").getValue(1, rowdata))
