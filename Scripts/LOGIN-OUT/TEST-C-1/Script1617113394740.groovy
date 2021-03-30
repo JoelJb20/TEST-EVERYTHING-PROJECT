@@ -19,21 +19,31 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
+WebUI.maximizeWindow()
+
+WebUI.delay(2)
+
 WebUI.navigateToUrl('https://www.amazon.com/-/es/ap/signin?openid.pape.max_auth_age=0&openid.return_to=https%3A%2F%2Fwww.amazon.com%2F%3Fref_%3Dnav_custrec_signin&openid.identity=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.assoc_handle=usflex&openid.mode=checkid_setup&openid.claimed_id=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.ns=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0&')
 
 WebUI.verifyElementPresent(findTestObject('LOGIN/Page_Amazon Sign-In/input_Email or mobile phone number_email'), 0)
 
-WebUI.acceptAlert()
+WebUI.verifyElementClickable(findTestObject('Object Repository/LOGIN/Page_Amazon Sign-In/input_Email or mobile phone number_email'))
 
-WebUI.acceptAlert()
+WebUI.setText(findTestObject('LOGIN/Page_Amazon Sign-In/input_Email or mobile phone number_email'), GlobalVariable.USERNAME_VAL)
 
-WebUI.acceptAlert()
+WebUI.click(findTestObject('LOGIN/Page_Amazon Sign-In/input_Enter your email or mobile phone number_continue'))
 
-WebUI.acceptAlert()
+WebUI.verifyElementPresent(findTestObject('LOGIN/Page_Amazon Sign-In/input_Forgot your password_password'), 0)
 
-WebUI.acceptAlert()
+WebUI.verifyElementClickable(findTestObject('LOGIN/Page_Amazon Sign-In/input_Forgot your password_password'))
 
-WebUI.acceptAlert()
+WebUI.click(findTestObject('LOGIN/Page_Amazon Sign-In/input_Forgot your password_password'))
 
-WebUI.acceptAlert()
+WebUI.setText(findTestObject('LOGIN/Page_Amazon Sign-In/input_Forgot your password_password'), GlobalVariable.PASSWORD_VAL)
+
+WebUI.click(findTestObject('LOGIN/Page_Amazon Sign-In/input_Enter your password_signInSubmit'))
+
+WebUI.delay(3)
+
+WebUI.closeBrowser()
 

@@ -4,4 +4,24 @@
    <name>default</name>
    <tag></tag>
    <defaultProfile>true</defaultProfile>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>findTestData('LOGIN/LOGIN-DATA').getValue(1, 1)</initValue>
+      <name>USERNAME_VAL</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>findTestData('LOGIN/LOGIN-DATA').getValue(2, 1)</initValue>
+      <name>PASSWORD_VAL</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>findTestData('LOGIN/LOGIN-DATA').getValue(1, 3)</initValue>
+      <name>INV_USERNAME</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>findTestData('LOGIN/LOGIN-DATA').getValue(2, 2)</initValue>
+      <name>INV_PASSWORD</name>
+   </GlobalVariableEntity>
 </GlobalVariableEntities>
