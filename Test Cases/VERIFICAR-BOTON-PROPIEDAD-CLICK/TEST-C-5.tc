@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>VERIFICAR LA PRESENCIA DE BOTONES, CON SUS ATRIBUTO CLICKCABLE.</description>
+   <name>TEST-C-5</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>ec4869d3-a5e7-410a-a1ac-76fa1161108b</testCaseGuid>
+</TestCaseEntity>

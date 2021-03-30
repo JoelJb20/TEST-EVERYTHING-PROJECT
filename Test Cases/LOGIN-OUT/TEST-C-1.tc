@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>HACER LOGIN CON USUARIO VALIDO Y CONTRASEÑA VALIDA</description>
+   <name>TEST-C-1</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>b09af1cf-db13-4f7b-b411-871d5aa0de05</testCaseGuid>
+</TestCaseEntity>
