@@ -1,0 +1,148 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TEST-SUITE-LOGIN-NAV-OUT,Firefox 87.0,,,2021-03-30 16:43:58,2021-03-30 16:47:52,3m - 53.513s,PASSED
+,,,,,,,
+Test Cases/LOGIN-OUT/TEST-C-1,Firefox 87.0,HACER LOGIN CON USUARIO VALIDO Y CONTRASEÑA VALIDA,,2021-03-30 16:44:01,2021-03-30 16:44:26,25.411s,PASSED
+"openBrowser("""")",Firefox 87.0,,,2021-03-30 16:44:01,2021-03-30 16:44:07,5.222s,PASSED
+maximizeWindow(),Firefox 87.0,,,2021-03-30 16:44:07,2021-03-30 16:44:07,0.301s,PASSED
+delay(2),Firefox 87.0,,,2021-03-30 16:44:07,2021-03-30 16:44:09,2.038s,PASSED
+"navigateToUrl(""https://www.amazon.com/-/es/ap/signin?openid.pape.max_auth_age=0&openid.return_to=https%3A%2F%2Fwww.amazon.com%2F%3Fref_%3Dnav_custrec_signin&openid.identity=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.assoc_handle=usflex&openid.mode=checkid_setup&openid.claimed_id=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.ns=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0&"")",Firefox 87.0,,,2021-03-30 16:44:09,2021-03-30 16:44:10,1.439s,PASSED
+"verifyElementPresent(findTestObject(""LOGIN_OR/Page_Amazon Sign-In/input_Email or mobile phone number_email""), 0)",Firefox 87.0,,,2021-03-30 16:44:10,2021-03-30 16:44:11,0.976s,PASSED
+"verifyElementClickable(findTestObject(""LOGIN_OR/Page_Amazon Sign-In/input_Email or mobile phone number_email""))",Firefox 87.0,,,2021-03-30 16:44:11,2021-03-30 16:44:12,0.326s,PASSED
+"setText(findTestObject(""LOGIN_OR/Page_Amazon Sign-In/input_Email or mobile phone number_email""), USERNAME_VAL)",Firefox 87.0,,,2021-03-30 16:44:12,2021-03-30 16:44:14,2.206s,PASSED
+"click(findTestObject(""LOGIN_OR/Page_Amazon Sign-In/input_Enter your email or mobile phone number_continue""))",Firefox 87.0,,,2021-03-30 16:44:14,2021-03-30 16:44:15,0.951s,PASSED
+"verifyElementPresent(findTestObject(""LOGIN_OR/Page_Amazon Sign-In/input_Forgot your password_password""), 0)",Firefox 87.0,,,2021-03-30 16:44:15,2021-03-30 16:44:16,0.713s,PASSED
+"verifyElementClickable(findTestObject(""LOGIN_OR/Page_Amazon Sign-In/input_Forgot your password_password""))",Firefox 87.0,,,2021-03-30 16:44:16,2021-03-30 16:44:16,0.285s,PASSED
+"click(findTestObject(""LOGIN_OR/Page_Amazon Sign-In/input_Forgot your password_password""))",Firefox 87.0,,,2021-03-30 16:44:16,2021-03-30 16:44:16,0.510s,PASSED
+"setText(findTestObject(""LOGIN_OR/Page_Amazon Sign-In/input_Forgot your password_password""), PASSWORD_VAL)",Firefox 87.0,,,2021-03-30 16:44:16,2021-03-30 16:44:17,0.765s,PASSED
+"click(findTestObject(""LOGIN_OR/Page_Amazon Sign-In/input_Enter your password_signInSubmit""))",Firefox 87.0,,,2021-03-30 16:44:17,2021-03-30 16:44:22,4.509s,PASSED
+delay(3),Firefox 87.0,,,2021-03-30 16:44:22,2021-03-30 16:44:25,3.003s,PASSED
+closeBrowser(),Firefox 87.0,,,2021-03-30 16:44:25,2021-03-30 16:44:26,1.536s,PASSED
+,,,,,,,
+Test Cases/LOGIN-OUT/TEST-C-2,Firefox 87.0,HACER LOGIN CON USUARIO VALIDO Y CONTRASEÑA INVALIDA,,2021-03-30 16:44:26,2021-03-30 16:44:45,18.667s,PASSED
+openBrowser(null),Firefox 87.0,,,2021-03-30 16:44:27,2021-03-30 16:44:31,4.463s,PASSED
+"navigateToUrl(""https://www.amazon.com/-/es/ap/signin?openid.pape.max_auth_age=0&openid.return_to=https%3A%2F%2Fwww.amazon.com%2F%3Fref_%3Dnav_custrec_signin&openid.identity=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.assoc_handle=usflex&openid.mode=checkid_setup&openid.claimed_id=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.ns=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0&"")",Firefox 87.0,,,2021-03-30 16:44:31,2021-03-30 16:44:32,1.396s,PASSED
+maximizeWindow(),Firefox 87.0,,,2021-03-30 16:44:32,2021-03-30 16:44:33,0.285s,PASSED
+delay(2),Firefox 87.0,,,2021-03-30 16:44:33,2021-03-30 16:44:35,2.002s,PASSED
+"verifyElementPresent(findTestObject(""LOGIN_OR/Page_Amazon Sign-In/input_Email or mobile phone number_email""), 0)",Firefox 87.0,,,2021-03-30 16:44:35,2021-03-30 16:44:35,0.351s,PASSED
+"verifyElementClickable(findTestObject(""LOGIN_OR/Page_Amazon Sign-In/input_Email or mobile phone number_email""))",Firefox 87.0,,,2021-03-30 16:44:35,2021-03-30 16:44:35,0.316s,PASSED
+"click(findTestObject(""LOGIN_OR/Page_Amazon Sign-In/input_Email or mobile phone number_email""))",Firefox 87.0,,,2021-03-30 16:44:35,2021-03-30 16:44:36,0.724s,PASSED
+"setText(findTestObject(""LOGIN_OR/Page_Amazon Sign-In/input_Email or mobile phone number_email""), USERNAME_VAL)",Firefox 87.0,,,2021-03-30 16:44:36,2021-03-30 16:44:37,0.577s,PASSED
+"click(findTestObject(""LOGIN_OR/Page_Amazon Sign-In/input_Enter your email or mobile phone number_continue""))",Firefox 87.0,,,2021-03-30 16:44:37,2021-03-30 16:44:38,0.906s,PASSED
+"verifyElementPresent(findTestObject(""LOGIN_OR/Page_Amazon Sign-In/input_Forgot your password_password""), 0)",Firefox 87.0,,,2021-03-30 16:44:38,2021-03-30 16:44:38,0.752s,PASSED
+"verifyElementClickable(findTestObject(""LOGIN_OR/Page_Amazon Sign-In/input_Forgot your password_password""))",Firefox 87.0,,,2021-03-30 16:44:38,2021-03-30 16:44:39,0.284s,PASSED
+"click(findTestObject(""LOGIN_OR/Page_Amazon Sign-In/input_Forgot your password_password""))",Firefox 87.0,,,2021-03-30 16:44:39,2021-03-30 16:44:39,0.522s,PASSED
+"setText(findTestObject(""LOGIN_OR/Page_Amazon Sign-In/input_Forgot your password_password""), INV_PASSWORD)",Firefox 87.0,,,2021-03-30 16:44:39,2021-03-30 16:44:40,0.756s,PASSED
+"click(findTestObject(""LOGIN_OR/Page_Amazon Sign-In/input_Enter your password_signInSubmit""))",Firefox 87.0,,,2021-03-30 16:44:40,2021-03-30 16:44:41,1.114s,PASSED
+"verifyElementPresent(findTestObject(""LOGIN_OR/Page_Amazon Sign-In/span_Your password is incorrect""), 0)",Firefox 87.0,,,2021-03-30 16:44:41,2021-03-30 16:44:42,0.933s,PASSED
+delay(2),Firefox 87.0,,,2021-03-30 16:44:42,2021-03-30 16:44:44,2.002s,PASSED
+closeBrowser(),Firefox 87.0,,,2021-03-30 16:44:44,2021-03-30 16:44:45,0.913s,PASSED
+,,,,,,,
+Test Cases/LOGIN-OUT/TEST-C-3,Firefox 87.0,HACER LOGIN CON USUARIO INVALIDO Y CONTRASEÑA VALIDA,,2021-03-30 16:44:45,2021-03-30 16:45:00,15.041s,PASSED
+"openBrowser("""")",Firefox 87.0,,,2021-03-30 16:44:45,2021-03-30 16:44:50,4.497s,PASSED
+"navigateToUrl(""https://www.amazon.com/-/es/ap/signin?openid.pape.max_auth_age=0&openid.return_to=https%3A%2F%2Fwww.amazon.com%2F%3Fref_%3Dnav_custrec_signin&openid.identity=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.assoc_handle=usflex&openid.mode=checkid_setup&openid.claimed_id=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.ns=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0&"")",Firefox 87.0,,,2021-03-30 16:44:50,2021-03-30 16:44:51,1.357s,PASSED
+maximizeWindow(),Firefox 87.0,,,2021-03-30 16:44:51,2021-03-30 16:44:51,0.276s,PASSED
+delay(2),Firefox 87.0,,,2021-03-30 16:44:51,2021-03-30 16:44:53,2.002s,PASSED
+"verifyElementPresent(findTestObject(""LOGIN_OR/Page_Amazon Sign-In/input_Email or mobile phone number_email""), 0)",Firefox 87.0,,,2021-03-30 16:44:53,2021-03-30 16:44:54,0.318s,PASSED
+"verifyElementClickable(findTestObject(""LOGIN_OR/Page_Amazon Sign-In/input_Email or mobile phone number_email""))",Firefox 87.0,,,2021-03-30 16:44:54,2021-03-30 16:44:54,0.322s,PASSED
+"click(findTestObject(""LOGIN_OR/Page_Amazon Sign-In/input_Email or mobile phone number_email""))",Firefox 87.0,,,2021-03-30 16:44:54,2021-03-30 16:44:55,0.815s,PASSED
+"setText(findTestObject(""LOGIN_OR/Page_Amazon Sign-In/input_Email or mobile phone number_email""), INV_USERNAME)",Firefox 87.0,,,2021-03-30 16:44:55,2021-03-30 16:44:55,0.568s,PASSED
+"click(findTestObject(""LOGIN_OR/Page_Amazon Sign-In/input_Enter your email or mobile phone number_continue""))",Firefox 87.0,,,2021-03-30 16:44:55,2021-03-30 16:44:56,0.621s,PASSED
+"verifyElementPresent(findTestObject(""LOGIN_OR/Page_Amazon Sign-In/span_We cannot find an account with that email address""), 0)",Firefox 87.0,,,2021-03-30 16:44:56,2021-03-30 16:44:57,0.956s,PASSED
+delay(2),Firefox 87.0,,,2021-03-30 16:44:57,2021-03-30 16:44:59,2.004s,PASSED
+closeBrowser(),Firefox 87.0,,,2021-03-30 16:44:59,2021-03-30 16:45:00,0.900s,PASSED
+,,,,,,,
+Test Cases/LOGIN-OUT/TEST-C-4,Firefox 87.0,HACER LOGIN CON USUARIO  Y  CONTRASEÑA INVALIDOS,,2021-03-30 16:45:00,2021-03-30 16:45:14,13.788s,PASSED
+"openBrowser("""")",Firefox 87.0,,,2021-03-30 16:45:00,2021-03-30 16:45:04,4.041s,PASSED
+"navigateToUrl(""https://www.amazon.com/-/es/ap/signin?openid.pape.max_auth_age=0&openid.return_to=https%3A%2F%2Fwww.amazon.com%2F%3Fref_%3Dnav_custrec_signin&openid.identity=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.assoc_handle=usflex&openid.mode=checkid_setup&openid.claimed_id=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.ns=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0&"")",Firefox 87.0,,,2021-03-30 16:45:04,2021-03-30 16:45:06,1.185s,PASSED
+maximizeWindow(),Firefox 87.0,,,2021-03-30 16:45:06,2021-03-30 16:45:06,0.296s,PASSED
+delay(2),Firefox 87.0,,,2021-03-30 16:45:06,2021-03-30 16:45:08,2.005s,PASSED
+"verifyElementPresent(findTestObject(""LOGIN_OR/Page_Amazon Sign-In/input_Email or mobile phone number_email""), 0)",Firefox 87.0,,,2021-03-30 16:45:08,2021-03-30 16:45:08,0.302s,PASSED
+"verifyElementClickable(findTestObject(""LOGIN_OR/Page_Amazon Sign-In/input_Email or mobile phone number_email""))",Firefox 87.0,,,2021-03-30 16:45:08,2021-03-30 16:45:08,0.331s,PASSED
+"setText(findTestObject(""LOGIN_OR/Page_Amazon Sign-In/input_Email or mobile phone number_email""), INV_USERNAME)",Firefox 87.0,,,2021-03-30 16:45:08,2021-03-30 16:45:09,0.781s,PASSED
+"click(findTestObject(""LOGIN_OR/Page_Amazon Sign-In/input_Enter your email or mobile phone number_continue""))",Firefox 87.0,,,2021-03-30 16:45:09,2021-03-30 16:45:10,0.622s,PASSED
+"verifyElementPresent(findTestObject(""LOGIN_OR/Page_Amazon Sign-In/div_There was a problem                                                                                  Your password is incorrect""), 0)",Firefox 87.0,,,2021-03-30 16:45:10,2021-03-30 16:45:11,0.934s,PASSED
+delay(2),Firefox 87.0,,,2021-03-30 16:45:11,2021-03-30 16:45:13,2.003s,PASSED
+closeBrowser(),Firefox 87.0,,,2021-03-30 16:45:13,2021-03-30 16:45:14,0.901s,PASSED
+,,,,,,,
+Test Cases/VERIFICAR-BOTON-PROPIEDAD-CLICK/TEST-C-5,Firefox 87.0,"VERIFICAR LA PRESENCIA DE BOTONES, CON SUS ATRIBUTO CLICKCABLE.",,2021-03-30 16:45:14,2021-03-30 16:45:49,35.775s,PASSED
+"openBrowser("""")",Firefox 87.0,,,2021-03-30 16:45:14,2021-03-30 16:45:19,4.482s,PASSED
+"navigateToUrl(""https://www.amazon.com/-/es/ap/signin?openid.pape.max_auth_age=0&openid.return_to=https%3A%2F%2Fwww.amazon.com%2F%3Fref_%3Dnav_custrec_signin&openid.identity=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.assoc_handle=usflex&openid.mode=checkid_setup&openid.claimed_id=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.ns=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0&"")",Firefox 87.0,,,2021-03-30 16:45:19,2021-03-30 16:45:20,1.238s,PASSED
+maximizeWindow(),Firefox 87.0,,,2021-03-30 16:45:20,2021-03-30 16:45:20,0.280s,PASSED
+delay(0),Firefox 87.0,,,2021-03-30 16:45:20,2021-03-30 16:45:20,0.005s,PASSED
+"setText(findTestObject(""LOGIN_OR/Page_Amazon Sign-In/input_Email or mobile phone number_email""), USERNAME_VAL)",Firefox 87.0,,,2021-03-30 16:45:20,2021-03-30 16:45:21,0.920s,PASSED
+"click(findTestObject(""LOGIN_OR/Page_Amazon Sign-In/input_Enter your email or mobile phone number_continue""))",Firefox 87.0,,,2021-03-30 16:45:21,2021-03-30 16:45:22,0.909s,PASSED
+"setText(findTestObject(""LOGIN_OR/Page_Amazon Sign-In/input_Forgot your password_password""), PASSWORD_VAL)",Firefox 87.0,,,2021-03-30 16:45:22,2021-03-30 16:45:23,0.975s,PASSED
+"click(findTestObject(""LOGIN_OR/Page_Amazon Sign-In/input_Enter your password_signInSubmit""))",Firefox 87.0,,,2021-03-30 16:45:23,2021-03-30 16:45:27,4.250s,PASSED
+delay(3),Firefox 87.0,,,2021-03-30 16:45:27,2021-03-30 16:45:30,3.004s,PASSED
+"verifyElementPresent(findTestObject(""ELEMENT_TO_VERIFY_OR/Page_Amazon.com Online Shopping for Electronics, Apparel, Computers, Books, DVDs  more/a_.us""), 0)",Firefox 87.0,,,2021-03-30 16:45:30,2021-03-30 16:45:31,0.935s,PASSED
+"verifyElementPresent(findTestObject(""ELEMENT_TO_VERIFY_OR/Page_Amazon.com Online Shopping for Electronics, Apparel, Computers, Books, DVDs  more/a_6pmScore dealson fashion brands""), 0)",Firefox 87.0,,,2021-03-30 16:45:31,2021-03-30 16:45:31,0.300s,PASSED
+"verifyElementPresent(findTestObject(""ELEMENT_TO_VERIFY_OR/Page_Amazon.com Online Shopping for Electronics, Apparel, Computers, Books, DVDs  more/a_7                                                Cart""), 0)",Firefox 87.0,,,2021-03-30 16:45:31,2021-03-30 16:45:32,0.287s,PASSED
+"verifyElementPresent(findTestObject(""ELEMENT_TO_VERIFY_OR/Page_Amazon.com Online Shopping for Electronics, Apparel, Computers, Books, DVDs  more/a_AbeBooksBooks, art collectibles""), 0)",Firefox 87.0,,,2021-03-30 16:45:32,2021-03-30 16:45:32,0.283s,PASSED
+"verifyElementPresent(findTestObject(""ELEMENT_TO_VERIFY_OR/Page_Amazon.com Online Shopping for Electronics, Apparel, Computers, Books, DVDs  more/a_AbeBooksBooks, art collectibles (1)""), 0)",Firefox 87.0,,,2021-03-30 16:45:32,2021-03-30 16:45:32,0.301s,PASSED
+"verifyElementPresent(findTestObject(""ELEMENT_TO_VERIFY_OR/Page_Amazon.com Online Shopping for Electronics, Apparel, Computers, Books, DVDs  more/a_Amazon AdvertisingFind, attract, andengage customers""), 0)",Firefox 87.0,,,2021-03-30 16:45:32,2021-03-30 16:45:33,0.719s,PASSED
+"verifyElementPresent(findTestObject(""ELEMENT_TO_VERIFY_OR/Page_Gold Box Deals  Todays Deals - Amazon.com/a_Amazon Basics""), 0)",Firefox 87.0,,,2021-03-30 16:45:33,2021-03-30 16:45:33,0.310s,PASSED
+"verifyElementPresent(findTestObject(""ELEMENT_TO_VERIFY_OR/Page_Gold Box Deals  Todays Deals - Amazon.com/a_Amazon Home""), 0)",Firefox 87.0,,,2021-03-30 16:45:33,2021-03-30 16:45:34,0.296s,PASSED
+"verifyElementPresent(findTestObject(""ELEMENT_TO_VERIFY_OR/Page_Gold Box Deals  Todays Deals - Amazon.com/a_Best Sellers""), 0)",Firefox 87.0,,,2021-03-30 16:45:34,2021-03-30 16:45:34,0.294s,PASSED
+"verifyElementPresent(findTestObject(""ELEMENT_TO_VERIFY_OR/Page_Gold Box Deals  Todays Deals - Amazon.com/a_Pet Supplies""), 0)",Firefox 87.0,,,2021-03-30 16:45:34,2021-03-30 16:45:34,0.309s,PASSED
+"verifyElementPresent(findTestObject(""ELEMENT_TO_VERIFY_OR/Page_Gold Box Deals  Todays Deals - Amazon.com/a_Pharmacy""), 0)",Firefox 87.0,,,2021-03-30 16:45:34,2021-03-30 16:45:35,0.327s,PASSED
+"verifyElementPresent(findTestObject(""ELEMENT_TO_VERIFY_OR/Page_Gold Box Deals  Todays Deals - Amazon.com/a_Shop gift ideas for Mom""), 0)",Firefox 87.0,,,2021-03-30 16:45:35,2021-03-30 16:45:35,0.290s,PASSED
+"verifyElementPresent(findTestObject(""ELEMENT_TO_VERIFY_OR/Page_Gold Box Deals  Todays Deals - Amazon.com/a_Shopper Toolkit""), 0)",Firefox 87.0,,,2021-03-30 16:45:35,2021-03-30 16:45:35,0.303s,PASSED
+"verifyElementPresent(findTestObject(""ELEMENT_TO_VERIFY_OR/Page_Gold Box Deals  Todays Deals - Amazon.com/a_Subscribe  Save""), 0)",Firefox 87.0,,,2021-03-30 16:45:35,2021-03-30 16:45:35,0.295s,PASSED
+"scrollToElement(findTestObject(""ELEMENT_TO_VERIFY_OR/Page_Amazon.com Online Shopping for Electronics, Apparel, Computers, Books, DVDs  more/a_Amazon DriveCloud storagefrom Amazon""), 0)",Firefox 87.0,,,2021-03-30 16:45:35,2021-03-30 16:45:36,1.020s,PASSED
+"verifyElementPresent(findTestObject(""ELEMENT_TO_VERIFY_OR/Page_Amazon.com Online Shopping for Electronics, Apparel, Computers, Books, DVDs  more/a_Amazon DriveCloud storagefrom Amazon""), 0)",Firefox 87.0,,,2021-03-30 16:45:36,2021-03-30 16:45:38,1.746s,PASSED
+"verifyElementPresent(findTestObject(""ELEMENT_TO_VERIFY_OR/Page_Amazon.com Online Shopping for Electronics, Apparel, Computers, Books, DVDs  more/a_Amazon FreshGroceries  MoreRight To Your Door""), 0)",Firefox 87.0,,,2021-03-30 16:45:38,2021-03-30 16:45:39,0.289s,PASSED
+"verifyElementPresent(findTestObject(""ELEMENT_TO_VERIFY_OR/Page_Amazon.com Online Shopping for Electronics, Apparel, Computers, Books, DVDs  more/a_Amazon MusicStream millionsof songs""), 0)",Firefox 87.0,,,2021-03-30 16:45:39,2021-03-30 16:45:39,0.289s,PASSED
+"verifyElementPresent(findTestObject(""ELEMENT_TO_VERIFY_OR/Page_Amazon.com Online Shopping for Electronics, Apparel, Computers, Books, DVDs  more/a_Amazon PhotosUnlimited Photo StorageFree With Prime""), 0)",Firefox 87.0,,,2021-03-30 16:45:39,2021-03-30 16:45:39,0.298s,PASSED
+"verifyElementPresent(findTestObject(""ELEMENT_TO_VERIFY_OR/Page_Amazon.com Online Shopping for Electronics, Apparel, Computers, Books, DVDs  more/a_Amazon Subscription BoxesTop subscription boxes  right to your door""), 0)",Firefox 87.0,,,2021-03-30 16:45:39,2021-03-30 16:45:39,0.293s,PASSED
+"verifyElementPresent(findTestObject(""ELEMENT_TO_VERIFY_OR/Page_Amazon.com Online Shopping for Electronics, Apparel, Computers, Books, DVDs  more/a_AmazonGlobalShip OrdersInternationally""), 0)",Firefox 87.0,,,2021-03-30 16:45:39,2021-03-30 16:45:40,0.280s,PASSED
+"verifyElementPresent(findTestObject(""ELEMENT_TO_VERIFY_OR/Page_Amazon.com Online Shopping for Electronics, Apparel, Computers, Books, DVDs  more/a_Buy Again""), 0)",Firefox 87.0,,,2021-03-30 16:45:40,2021-03-30 16:45:40,0.287s,PASSED
+"verifyElementPresent(findTestObject(""ELEMENT_TO_VERIFY_OR/Page_Amazon.com Online Shopping for Electronics, Apparel, Computers, Books, DVDs  more/a_Computers""), 0)",Firefox 87.0,,,2021-03-30 16:45:40,2021-03-30 16:45:40,0.287s,PASSED
+"verifyElementPresent(findTestObject(""ELEMENT_TO_VERIFY_OR/Page_Amazon.com Online Shopping for Electronics, Apparel, Computers, Books, DVDs  more/a_Coupons""), 0)",Firefox 87.0,,,2021-03-30 16:45:40,2021-03-30 16:45:41,0.288s,PASSED
+"verifyElementPresent(findTestObject(""ELEMENT_TO_VERIFY_OR/Page_Amazon.com Online Shopping for Electronics, Apparel, Computers, Books, DVDs  more/a_Deliver to SDQ                                                   Miami 33192""), 0)",Firefox 87.0,,,2021-03-30 16:45:41,2021-03-30 16:45:41,0.288s,PASSED
+"verifyElementPresent(findTestObject(""ELEMENT_TO_VERIFY_OR/Page_Amazon.com Online Shopping for Electronics, Apparel, Computers, Books, DVDs  more/a_DPReviewDigitalPhotography""), 0)",Firefox 87.0,,,2021-03-30 16:45:41,2021-03-30 16:45:42,0.879s,PASSED
+"verifyElementPresent(findTestObject(""ELEMENT_TO_VERIFY_OR/Page_Amazon.com Online Shopping for Electronics, Apparel, Computers, Books, DVDs  more/a_GoodreadsBook reviews recommendations""), 0)",Firefox 87.0,,,2021-03-30 16:45:42,2021-03-30 16:45:42,0.288s,PASSED
+"verifyElementPresent(findTestObject(""ELEMENT_TO_VERIFY_OR/Page_Amazon.com Online Shopping for Electronics, Apparel, Computers, Books, DVDs  more/a_Home ServicesExperienced ProsHappiness Guarantee""), 0)",Firefox 87.0,,,2021-03-30 16:45:42,2021-03-30 16:45:42,0.285s,PASSED
+"verifyElementPresent(findTestObject(""ELEMENT_TO_VERIFY_OR/Page_Amazon.com Online Shopping for Electronics, Apparel, Computers, Books, DVDs  more/a_IMDbMovies, TV Celebrities""), 0)",Firefox 87.0,,,2021-03-30 16:45:42,2021-03-30 16:45:43,0.284s,PASSED
+"verifyElementPresent(findTestObject(""ELEMENT_TO_VERIFY_OR/Page_Amazon.com Online Shopping for Electronics, Apparel, Computers, Books, DVDs  more/a_Kindle Direct PublishingIndie Digital  Print PublishingMade Easy""), 0)",Firefox 87.0,,,2021-03-30 16:45:43,2021-03-30 16:45:43,0.276s,PASSED
+"verifyElementPresent(findTestObject(""ELEMENT_TO_VERIFY_OR/Page_Amazon.com Online Shopping for Electronics, Apparel, Computers, Books, DVDs  more/a_PillPackPharmacy Simplified""), 0)",Firefox 87.0,,,2021-03-30 16:45:43,2021-03-30 16:45:43,0.283s,PASSED
+"verifyElementPresent(findTestObject(""ELEMENT_TO_VERIFY_OR/Page_Amazon.com Online Shopping for Electronics, Apparel, Computers, Books, DVDs  more/span_Returns""), 0)",Firefox 87.0,,,2021-03-30 16:45:43,2021-03-30 16:45:43,0.280s,PASSED
+"verifyElementPresent(findTestObject(""ELEMENT_TO_VERIFY_OR/Page_Amazon.com Online Shopping for Electronics, Apparel, Computers, Books, DVDs  more/span_Miami 33192""), 0)",Firefox 87.0,,,2021-03-30 16:45:43,2021-03-30 16:45:44,0.282s,PASSED
+"verifyElementPresent(findTestObject(""ELEMENT_TO_VERIFY_OR/Page_Amazon.com Online Shopping for Electronics, Apparel, Computers, Books, DVDs  more/span_Deliver to SDQ""), 0)",Firefox 87.0,,,2021-03-30 16:45:44,2021-03-30 16:45:44,0.283s,PASSED
+"verifyElementPresent(findTestObject(""ELEMENT_TO_VERIFY_OR/Page_Amazon.com Online Shopping for Electronics, Apparel, Computers, Books, DVDs  more/span_All_icp-nav-link-inner""), 0)",Firefox 87.0,,,2021-03-30 16:45:44,2021-03-30 16:45:44,0.281s,PASSED
+"verifyElementPresent(findTestObject(""ELEMENT_TO_VERIFY_OR/Page_Amazon.com Online Shopping for Electronics, Apparel, Computers, Books, DVDs  more/span_Account  Lists""), 0)",Firefox 87.0,,,2021-03-30 16:45:44,2021-03-30 16:45:45,0.281s,PASSED
+"verifyElementPresent(findTestObject(""ELEMENT_TO_VERIFY_OR/Page_Amazon.com Online Shopping for Electronics, Apparel, Computers, Books, DVDs  more/span_ Orders""), 0)",Firefox 87.0,,,2021-03-30 16:45:45,2021-03-30 16:45:45,0.296s,PASSED
+delay(3),Firefox 87.0,,,2021-03-30 16:45:45,2021-03-30 16:45:48,3.003s,PASSED
+closeBrowser(),Firefox 87.0,,,2021-03-30 16:45:48,2021-03-30 16:45:49,1.646s,PASSED
+,,,,,,,
+Test Cases/NAVEGACION/TEST-C-6,Firefox 87.0,HACER UNA BUSQUEDA DE UN ARTICULO,,2021-03-30 16:45:49,2021-03-30 16:47:25,1m - 35.242s,PASSED
+"openBrowser("""")",Firefox 87.0,,,2021-03-30 16:45:50,2021-03-30 16:45:54,4.493s,PASSED
+"navigateToUrl(""https://www.amazon.com/-/es/ap/signin?openid.pape.max_auth_age=0&openid.return_to=https%3A%2F%2Fwww.amazon.com%2F%3Fref_%3Dnav_custrec_signin&openid.identity=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.assoc_handle=usflex&openid.mode=checkid_setup&openid.claimed_id=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.ns=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0&"")",Firefox 87.0,,,2021-03-30 16:45:54,2021-03-30 16:45:56,1.711s,PASSED
+maximizeWindow(),Firefox 87.0,,,2021-03-30 16:45:56,2021-03-30 16:45:56,0.264s,PASSED
+delay(0),Firefox 87.0,,,2021-03-30 16:45:56,2021-03-30 16:45:56,0.002s,PASSED
+"setText(findTestObject(""LOGIN_OR/Page_Amazon Sign-In/input_Email or mobile phone number_email""), USERNAME_VAL)",Firefox 87.0,,,2021-03-30 16:45:56,2021-03-30 16:45:57,0.947s,PASSED
+"click(findTestObject(""LOGIN_OR/Page_Amazon Sign-In/input_Enter your email or mobile phone number_continue""))",Firefox 87.0,,,2021-03-30 16:45:57,2021-03-30 16:45:58,0.874s,PASSED
+"setText(findTestObject(""LOGIN_OR/Page_Amazon Sign-In/input_Forgot your password_password""), PASSWORD_VAL)",Firefox 87.0,,,2021-03-30 16:45:58,2021-03-30 16:45:59,1.002s,PASSED
+"click(findTestObject(""LOGIN_OR/Page_Amazon Sign-In/input_Enter your password_signInSubmit""))",Firefox 87.0,,,2021-03-30 16:45:59,2021-03-30 16:46:03,4.178s,PASSED
+"for ([rowdata = 1, rowdata <= findTestData(""Data Files/BUSCADOR/BUSCADOR_DATA"").getRowNumbers(), (rowdata++)])",Firefox 87.0,,,2021-03-30 16:46:03,2021-03-30 16:47:22,1m - 18.294s,PASSED
+delay(3),Firefox 87.0,,,2021-03-30 16:47:22,2021-03-30 16:47:25,3.003s,PASSED
+,,,,,,,
+Test Cases/LOGIN-OUT/TEST-C-7,Firefox 87.0,HACER LOG OUT,,2021-03-30 16:47:25,2021-03-30 16:47:52,27.285s,PASSED
+"openBrowser("""")",Firefox 87.0,,,2021-03-30 16:47:25,2021-03-30 16:47:33,7.513s,PASSED
+"navigateToUrl(""https://www.amazon.com/-/es/ap/signin?openid.pape.max_auth_age=0&openid.return_to=https%3A%2F%2Fwww.amazon.com%2F%3Fref_%3Dnav_custrec_signin&openid.identity=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.assoc_handle=usflex&openid.mode=checkid_setup&openid.claimed_id=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.ns=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0&"")",Firefox 87.0,,,2021-03-30 16:47:33,2021-03-30 16:47:34,1.259s,PASSED
+maximizeWindow(),Firefox 87.0,,,2021-03-30 16:47:34,2021-03-30 16:47:34,0.270s,PASSED
+delay(1),Firefox 87.0,,,2021-03-30 16:47:34,2021-03-30 16:47:35,1.004s,PASSED
+"verifyElementPresent(findTestObject(""LOGIN_OR/Page_Amazon Sign-In/input_Email or mobile phone number_email""), 0)",Firefox 87.0,,,2021-03-30 16:47:35,2021-03-30 16:47:35,0.282s,PASSED
+"verifyElementClickable(findTestObject(""LOGIN_OR/Page_Amazon Sign-In/input_Email or mobile phone number_email""))",Firefox 87.0,,,2021-03-30 16:47:35,2021-03-30 16:47:36,0.286s,PASSED
+"click(findTestObject(""LOGIN_OR/Page_Amazon Sign-In/input_Email or mobile phone number_email""))",Firefox 87.0,,,2021-03-30 16:47:36,2021-03-30 16:47:36,0.502s,PASSED
+"setText(findTestObject(""LOGIN_OR/Page_Amazon Sign-In/input_Email or mobile phone number_email""), USERNAME_VAL)",Firefox 87.0,,,2021-03-30 16:47:36,2021-03-30 16:47:37,0.785s,PASSED
+"click(findTestObject(""LOGIN_OR/Page_Amazon Sign-In/input_Enter your email or mobile phone number_continue""))",Firefox 87.0,,,2021-03-30 16:47:37,2021-03-30 16:47:38,1.021s,PASSED
+"verifyElementPresent(findTestObject(""LOGIN_OR/Page_Amazon Sign-In/input_Forgot your password_password""), 0)",Firefox 87.0,,,2021-03-30 16:47:38,2021-03-30 16:47:39,0.688s,PASSED
+"verifyElementClickable(findTestObject(""LOGIN_OR/Page_Amazon Sign-In/input_Forgot your password_password""))",Firefox 87.0,,,2021-03-30 16:47:39,2021-03-30 16:47:39,0.293s,PASSED
+"click(findTestObject(""LOGIN_OR/Page_Amazon Sign-In/input_Forgot your password_password""))",Firefox 87.0,,,2021-03-30 16:47:39,2021-03-30 16:47:40,0.492s,PASSED
+"setText(findTestObject(""LOGIN_OR/Page_Amazon Sign-In/input_Forgot your password_password""), PASSWORD_VAL)",Firefox 87.0,,,2021-03-30 16:47:40,2021-03-30 16:47:40,0.832s,PASSED
+"click(findTestObject(""LOGIN_OR/Page_Amazon Sign-In/input_Enter your password_signInSubmit""))",Firefox 87.0,,,2021-03-30 16:47:40,2021-03-30 16:47:44,4.102s,PASSED
+"verifyElementPresent(findTestObject(""ELEMENT_TO_VERIFY_OR/Page_Amazon.com Online Shopping for Electronics, Apparel, Computers, Books, DVDs  more/span_Account  Lists""), 0)",Firefox 87.0,,,2021-03-30 16:47:44,2021-03-30 16:47:45,0.811s,PASSED
+"mouseOver(findTestObject(""ELEMENT_TO_VERIFY_OR/Page_Amazon.com Online Shopping for Electronics, Apparel, Computers, Books, DVDs  more/span_Account  Lists""))",Firefox 87.0,,,2021-03-30 16:47:45,2021-03-30 16:47:46,0.478s,PASSED
+"click(findTestObject(""LOGIN_OR/Page_Amazon.com Online Shopping for Electronics, Apparel, Computers, Books, DVDs  more/span_Sign Out""))",Firefox 87.0,,,2021-03-30 16:47:46,2021-03-30 16:47:49,2.902s,PASSED
+"delay(2, CONTINUE_ON_FAILURE)",Firefox 87.0,,,2021-03-30 16:47:49,2021-03-30 16:47:51,2.009s,PASSED
+closeBrowser(),Firefox 87.0,,,2021-03-30 16:47:51,2021-03-30 16:47:52,1.361s,PASSED
